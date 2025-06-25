@@ -1,0 +1,15 @@
+/* .uploaded-image-file { display: none; } */
+.has-error label, .has-error small { color: rgb(188, 0, 0); }
+.has-error input, .has-error select, .has-error textarea { border-color: rgb(188, 0, 0); }
+.has-success label, .has-success small { color:rgb(60, 163, 0); }
+.has-success input, .has-success select, .has-success textarea { border-color: rgb(60, 163, 0); }
+.registrationInnger { border: 1px solid #ddd; padding: 15px; margin: 15px; border-radius: 15px; }
+#email-sendotp-button, #email-verify { margin-left: 15px; height: 44px; font-weight: var(--Font-400); }
+.file_err{color: #ff0000;}
+.form-group-radio .radio1 { float: left; margin-right: 10px;}
+
+#multijson-group_json_data tbody tr td, #multijson-group_json_data { border: none !important; }
+#main-group_json_data .table-responsive { max-height: 450px; }
+#main-group_json_data button { margin-top: 20px; margin-right: 15px; }
+#multijson-group_json_data tbody tr{border-width: 0px!important;}
+.pb-0.Font16.Color-291107.Font700.Title { font-size: 12px; }
