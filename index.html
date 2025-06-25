@@ -1133,5 +1133,36 @@ Paribesh Bhawan, A/118, Nilakantha Nagar,Unit – VIII, Bhubaneswar – 751012, 
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 </script>
+
+ <script>
+// Disable right-click
+document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+}, false);
+
+// Disable specific key shortcuts
+document.addEventListener('keydown', function(e) {
+  // F12
+  if (e.keyCode === 123) {
+    e.preventDefault();
+  }
+  // Ctrl+Shift+I
+  if (e.ctrlKey && e.shiftKey && e.keyCode === 73) {
+    e.preventDefault();
+  }
+  // Ctrl+U
+  if (e.ctrlKey && e.keyCode === 85) {
+    e.preventDefault();
+  }
+  // Ctrl+Shift+J (DevTools)
+  if (e.ctrlKey && e.shiftKey && e.keyCode === 74) {
+    e.preventDefault();
+  }
+  // Ctrl+S (Save page)
+  if (e.ctrlKey && e.keyCode === 83) {
+    e.preventDefault();
+  }
+}, false);
+</script> 
 </body>
 </html>
