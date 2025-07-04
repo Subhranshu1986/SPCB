@@ -1,0 +1,452 @@
+.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm { --bs-gutter-x: 1.5rem; --bs-gutter-y: 0; width: 100%; padding-right: calc(var(--bs-gutter-x) * 0.5); padding-left: calc(var(--bs-gutter-x) * 0.5); margin-right: auto; margin-left: auto; }
+@media (min-width:576px) {
+	.container-sm, .container { max-width: 100%; }
+}
+@media (min-width:768px) {
+	.container-md, .container-sm, .container { max-width: 100%; }
+}
+@media (min-width:992px) {
+	.container-lg, .container-md, .container-sm, .container { max-width: 100%; }
+}
+@media (min-width:1200px) {
+	.container-xl, .container-lg, .container-md, .container-sm, .container { max-width: 1140px; }
+}
+@media (min-width:1400px) {
+	.container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container { max-width: 1408px; }
+}
+
+/* Max width Media Query start */
+@media (min-width:992px) {
+	.ImageGridHome .swiper-wrapper { flex-wrap: wrap; margin-top: -30px; margin-left: -15px; margin-right: -15px; width: auto; }
+	.ImageGridHome .swiper-slide { width: calc(100% / 3) !important; display: flex; padding: 0px 15px; margin-top: 30px; }
+}
+@media (min-width:1200px) {
+	
+		/* HeaderBottom menu */
+	.HeaderMenu ul { display: flex; flex-wrap: wrap; align-items: center; }
+	.HeaderMenu ul li a { color: var(--Color-White); font-size: var(--Font-16); padding: 13px 0px; font-weight: var(--Font-400); }
+	/* Active state styling */
+	.HeaderMenu ul li a.active {color: var(--Color-E6A82E); /* Or any highlight color */font-weight: var(--Font-600); /* Optional: make it bolder */border-bottom: 2px solid var(--Color-E6A82E); /* Optional underline */}
+	.HeaderMenu ul li.hover > a { color: var(--Color-E6A82E); border-bottom: 2px solid var(--Color-E6A82E); }
+	.HeaderMenu ul li > ul li.hover>a { background-color: var(--Color-012b73); color: var(--Color-White); }
+	.HeaderMenu>ul>li.parent>a:after { content: ""; width: 8px; height: 8px; display: inline-block; margin-left: 8px; border-left: 2px solid; border-bottom: 2px solid; border-left-color: var(--Color-White); border-bottom-color: var(--Color-White); transform: rotate(-45deg); top: -3px; position: relative; }
+	.HeaderMenu>ul>li.parent.hover>a:after { border-left-color: var(--Color-E6A82E); border-bottom-color: var(--Color-E6A82E); }
+	.HeaderMenu>ul>li.parent:after { content: ""; background-color: transparent; position: absolute; bottom: -10px; width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 10px solid var(--Color-FFF4E1); display: block; top: auto; border-radius: 0px; left: 50%; transform: translateX(-50%); opacity: 0; transition: var(--Transition-2sl); }
+	.HeaderMenu>ul>li { overflow: hidden; }
+	.HeaderMenu>ul>li.hover { overflow: visible; }
+	.HeaderMenu>ul>li.hover:after { opacity: 1; bottom: 0; }
+	.HeaderMenu ul>li ul { box-shadow: var(--BoxShadow-1); margin-top: 0px; padding-left: 5px; position: absolute; top: 100%; left: 0; min-width: 315px; opacity: 0; visibility: hidden; top: calc(100% + 20px); transition: var(--Transition-2sl); border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; }
+	.HeaderMenu ul>li ul li:last-child a { border-bottom: 1px solid transparent; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; }
+	.HeaderMenu ul>li.hover > ul { opacity: 1; visibility: visible; top: calc(100% + 0px); }
+	.HeaderMenu > ul > li { margin-right: 40px; }
+	.HeaderMenu>ul>li.parent>a { padding-right: 2px; }
+	.HeaderMenu>ul>li:last-child { margin-right: 0px; }
+	.HeaderMenu ul>li ul li { width: 100%; }
+	.HeaderMenu ul>li ul li a { color: var(--Color-431E0D); width: 100%; padding: 8px 15px; font-weight: var(--Font-500); font-size: var(--Font-15); border-bottom: 1px solid #e6e6e6; background-color: var(--Color-FFF4E1); }
+	.HeaderMenu ul>li ul li>ul { left: 100%; }
+	.HeaderMenu > ul> li> ul { left: -5px; }
+	.HeaderMenu ul>li ul li.hover > ul { top: 0%; }
+	.HeaderMenu ul>li ul li.parent > a:after { content: ""; width: 7px; height: 7px; display: inline-block; margin-left: 8px; border: 2px solid var(--Color-431E0D); border-bottom: none; border-left: none; transform: rotate(45deg); position: absolute; right: 15px; top: 14px; }
+	.HeaderMenu ul>li>ul>li>ul { border-radius: 0px; overflow: visible; }
+	.HeaderMenu ul>li.InformationLi>ul>li>ul { left: 310px; right: 100%; padding-left: 0; padding-right: 5px; }
+	.HeaderMenu ul>li>ul>li>ul>li:first-child>a { border-top-left-radius: 0px; border-top-right-radius: 0px; }
+	.parent-trigger { display: none; }
+}
+@media (max-width:1399px) {
+	:root { --Font-92:5.125em; --Font-67:3.875em; --Font-64:3.75em; --Font-50:2.875em; --Font-42:2.5em; --Font-40:2.375em; --Font-39:2.25em; --Font-32:1.875em; --Font-28:1.6875em; --Font-27:1.625em; --Font-26:1.5625em; --Font-24:1.4375em; --Font-22:1.3125em; --Font-20:1.1875em; --Font-18:1.0625em; --Font-16:1em; --Font-15:0.9375em; --Font-14:0.875em; }
+	.SearchIcon, .AccessibilityIcon { width: 40px; height: 40px; }
+	.BharatiyaDivas .ShadowBox { padding: 0px 45px 45px; margin-top: 218px; }
+	.BharatiyaDivas .RightPart { padding-top: 30px; padding-left: 25px; }
+	.BharatiyaDivas .BigText { font-size: 60px; }
+	.BharatiyaDivas .LeftPart .Thumb { margin-top: -218px; }
+	.BharatiyaDivas { background-color: var(--Color-FFF4E1); padding: 10px 0px 100px; }
+	.PBDCountdown .CountdownWrap { padding: 25px 23px 25px; }
+	.BharatiyaDivas .BottomPart { padding-top: 52px; }
+	.HeadingBox { margin-bottom: 50px; }
+	.ProgrammeHighlights, .PBD_Conventions, .Reasons { padding: 100px 0px; }
+	.GlimpsePBD .PlayBtnVideo { width: 90px; height: 90px; }
+	.GlimpsePBD .TextContent { padding: 0px 0px 50px; }
+	.GlimpsePBD .Heading { margin: 28px 0px 15px; }
+	.BannerHome { height: 700px; }
+	.GlimpsePBD { min-height: 700px; }
+	.PBD_Conventions .ScaleBox .ConventionsBox { margin-left: -10px; margin-right: -10px; }
+	.PBD_Conventions .TextContent { padding: 25px 30px 35px; }
+	.PBD_Conventions .Title { margin: 3px 0px 25px; }
+	.PBD_Conventions .ScaleBox .sub-text { margin-bottom: 25px; }
+	.ProgrammeHighlights .ProgrammeBox:hover { transform: scale(1); }
+	.ProgrammeHighlights .Title { padding: 15px 30px 15px 30px; }
+	.ProgrammeHighlights .TextWrap { padding: 20px 30px 0px 30px; }
+	.ProgrammeHighlights .cta-link { margin-left: 30px; }
+	.ProgrammeHighlights .ProgrammeBox { box-shadow: var(--BoxShadow-1); }
+	.BharatiyaDivas .BigText { bottom: calc(100% - 8px); }
+	.PravasiBhartiyaBlock .Name { padding: 80px 0px 0px; }
+	.PravasiBhartiyaBlock:after { width: 700px; height: 700px; }
+	.PravasiBhartiyaBlock { padding: 90px 0px 110px; }
+	.SammanAward { padding: 70px 0px 100px; }
+	.VideoBox .PlayBtnVideo { width: 90px; height: 90px; }
+	.MessageMinister .TextBlock { padding: 20px 25px; }
+	.section-padding { padding: 60px 0px; }
+	.countryCode .code { width: 130px; }
+	.countryCode div.number { width: calc(100% - 140px); }
+	.BannerHome .HomeBannerControls { padding-left: calc((100% - 1140px) / 2); padding-right: calc((100% - 1140px) / 2); }
+	.PravasiBhartiyaBlock.madhyapradesh { padding: 60px 0px 60px; }
+	
+		/* .madhyapradesh.Programme .DayText { font-size: 100px; } */
+	.SearchIcon svg, .AccessibilityIcon svg, .SearchIcon img, .AccessibilityIcon img { max-width: 70%; }
+	.Page404.pageThankYou .TitleText { font-size: 70px; }
+	.Registration .Button { padding: 25px 25px; }
+	.BannerHome .Box18th { top: 5px; }
+	.BannerHome .Heading .CONVENTION { padding-bottom: 5px; }
+	.SearchBoxGlobal ul li a { padding: 16px; min-width: 180px; }
+	.Registration .RegisterBox { width: 25%; padding: 0px 15px; }
+	.HeaderMenu>ul>li { margin-right: 30px; }
+	.SearchBox { right: -5px; top: calc(100% + 16px); }
+	.LogoPartHeader { width: 278px; }
+	.MenuPartHeader { width: calc(100% - 278px); }
+	.BoostrapDropdownBox, .Search, .Accessibility, .RegisterNow, .parent-trigger, ul.Dropdown { margin-left: 14px; }
+	.HeaderMenu ul li a { font-size: var(--Font-16); }
+	.RegisterNow, .BoostrapDropdownBox .Button { padding: 11px 15px; }
+	.PBD_Conventions .PBD_ConventionsSwiper { max-width: 1075px; }
+	.PBD_Conventions .Title { font-size: var(--Font-26); }
+	.mjsontable>.pull-right { top: 8px; }
+	.BreadcrumbBox ul li.HomeLink a { padding: 14px 20px; }
+	.Programme .LeftProgramme { padding-left: 110px; }
+	.Programme .RightProgramme { padding-right: 110px; }
+	body.programme .BreadcrumbBox .PageTitle { margin: 63px auto 0px; padding: 15px 30px; }
+}
+@media (max-width:1199px) {
+	:root { --Font-92:4.5em; --Font-67:58px; --Font-64:58px; --Font-50:44px; --Font-42:38px; --Font-40:36px; --Font-39:34px; --Font-32:28px; --Font-28:25px; --Font-27:24px; --Font-26:23px; --Font-24:21px; --Font-22:20px; --Font-20:18px; --Font-18:16px; --Font-16:1em; --Font-15:0.9375em; --Font-14:0.875em; }
+	.HeaderMenu > ul > li { margin-right: 15px; }
+	.Search, .Accessibility, .RegisterNow, .parent-trigger, .BoostrapDropdownBox { margin-left: 10px; }
+	.SearchIcon, .AccessibilityIcon, .parent-trigger { width: 38px; height: 38px; }
+	.BharatiyaDivas .LeftPart .Thumb { margin-top: -41%; }
+	.BharatiyaDivas .ShadowBox { padding: 0px 40px 40px; margin-top: 20%; }
+	.BharatiyaDivas .BigText { font-size: 55px; }
+	.BharatiyaDivas .RightPart { padding-top: 40px; padding-left: 20px; }
+	.Marquee .MarqueeBox { padding-top: 16px; }
+	.PBDCountdown .CountdownWrap { padding: 25px 20px 25px; }
+	.Marquee { padding: 23px 20px; }
+	.BharatiyaDivas .BottomPart { padding-top: 42px; }
+	.ProgrammeHighlights .Arrows { display: flex !important; }
+	.HeadingBox { margin-bottom: 40px; }
+	.BharatiyaDivas { padding: 10px 0px 80px; }
+	.ProgrammeHighlights, .PBD_Conventions, .Reasons { padding: 80px 0px; }
+	.GlimpsePBD .PlayBtnVideo { width: 80px; height: 80px; }
+	.GlimpsePBD .TextContent { padding: 0px 0px 40px; }
+	.DepartmentLogo { padding: 40px 0px; }
+	.Reasons .ReasonsContent { padding: 30px 40px; }
+	.BannerHome .Box18th { max-width: 140px; top: -5px; }
+	.BannerHome .Heading h2 { text-indent: 145px; }
+	.PBDCountdown .Title { padding: 17px 22px; letter-spacing: 2px; }
+	.PBD_Conventions .ScaleBox .ConventionsBox { margin-left: -10px; margin-right: -10px; }
+	.PBD_Conventions .TextContent { padding: 25px 25px 30px; }
+	.BannerHome { height: 650px; }
+	.PBD_Conventions .Title { margin: 3px 0px 20px; }
+	.PBD_Conventions .ScaleBox .sub-text { margin-bottom: 20px; }
+	.GlimpsePBD { min-height: 650px; }
+	.Reasons .Box18th { max-width: 200px; }
+	.HighlightsSwiper { overflow: hidden; }
+	.SocialIcons, .Visitors { margin-top: 10px; }
+	.Reasons .LeftPart { width: 40%; }
+	.Reasons .RightPart { width: 60%; }
+	.ReasonsSocial { padding: 15px 30px 30px; }
+	.BharatiyaDivas .BigText { bottom: calc(100% - 7px); }
+	.PravasiBhartiyaBlock { padding: 80px 0px 105px; }
+	.PravasiBhartiyaBlock .Name { padding: 60px 0px 0px; }
+	.PravasiBhartiyaBlock { padding: 70px 0px 110px; }
+	.SammanAward { padding: 60px 0px 80px; }
+	.VideoBox .PlayBtnVideo { width: 80px; height: 80px; }
+	.ShadowBox { padding: 25px; }
+	.section-padding { padding: 60px 0px; }
+	.countryCode .code { width: 150px; }
+	.countryCode div.number { width: calc(100% - 160px); }
+	.BannerHome .HomeBannerControls { padding-left: 0px; padding-right: 0px; }
+	.PravasiBhartiyaBlock.madhyapradesh { padding: 60px 0px 60px; }
+	.PravasiBhartiyaBlock.madhyapradesh .MP-row { padding-bottom: 30px; }
+	.programme .PravasiBhartiyaBlock.madhyapradesh .MP-row { padding-bottom: 50px; }
+	.SearchIcon svg, .AccessibilityIcon svg, .SearchIcon img, .AccessibilityIcon img { max-width: 55%; }
+	.RegisterNow, .BoostrapDropdownBox .Button { padding: 12px 15px; }
+	.Page404.pageThankYou .TitleText { font-size: 60px; }
+	.Page404.pageThankYou.p404 .TitleText { font-size: 120px; }
+	.Registration .Button { padding: 25px 25px; }
+	.BannerHome .Heading h2 { letter-spacing: -2.68px; }
+	.SearchBoxGlobal ul li { margin: 6px; }
+	.SearchBoxGlobal ul li a { padding: 15px; min-width: 170px; }
+	.SearchBoxGlobal { padding: 40px 30px; }
+	.LogoPartHeader { width: 250px; }
+	.MenuPartHeader { width: calc(100% - 250px); }
+	
+		/* .BoostrapDropdownBox .Button { font-size: var(--Font-18); } */
+	div#div-mobile_isd_code, div#div-whatsapp_isd_code, div#div-mobile_isd_code, div#div-whatsapp_isd_code { width: 90px; }
+	div#div-mobile_no, div#div-whatsapp_no, div#div-mobile, div#div-coordinator_phone_number, div#div-coordinator_whatsapp_number { width: calc(100% - 90px); padding-left: 10px; }
+	.PBD_Conventions .PBD_ConventionsSwiper { max-width: 935px; }
+	.PBD_Conventions .Title { font-size: var(--Font-26); }
+	ul.NumberedList li:before { width: 40px; height: 40px; min-width: 40px; min-height: 40px; margin-right: 15px; }
+	ul.NumberedList li { margin-bottom: 25px; }
+	.uploaded-image-file { max-width: 35px; max-height: 35px; object-fit: contain; margin-top: 5px; position: relative; bottom: unset; right: unset; }
+	.Programme .DayText { font-size: 32px; }
+	.Programme .DayText span { font-size: 24px; }
+	.Programme .LeftProgramme { padding-left: 100px; }
+	.Programme .RightProgramme { padding-right: 100px; }
+	body.programme .BreadcrumbBox .PageTitle { margin: 53px auto 0px; padding: 15px 25px; }
+		.BreadcrumbBanner img.Wave{ bottom: -1px;}
+}
+@media (max-width:1199px) {
+	body { font-size: 14px !important; }
+	header { padding: 10px 0px; }
+	header .HeaderTop { padding: 0px 0px; }
+	.HeaderMenu { max-height: calc(100vh - 115px); overflow: auto; position: absolute; top: 100%; background-color: var(--Color-532611); width: 100%; display: none; left: 0; }
+	.LogoPartHeader { width: 278px; overflow: hidden; padding: 0px 0px; }
+	.MenuPartHeader { width: calc(100% - 278px); }
+	.Accessibility { display: none; }
+	.SearchBox .search { min-width: 280px; }
+	.SearchBox { top: calc(100% + 19px); right: 0px; }
+	.SearchBox:after { right: 8px; }
+	.HeaderMenu>ul>li { margin-right: 0px; }
+	.HeaderMenu>ul>li>a { padding: 10px 15px; display: block; }
+	.HeaderMenu>ul>li>ul>li>a { padding: 10px 30px; }
+	.HeaderMenu>ul>li>ul>li>ul>li >a { padding: 10px 45px; }
+	.HeaderMenu>ul>li>ul>li>ul>li >ul>li>a { padding: 10px 60px; }
+	.HeaderMenu ul>li { position: relative; }
+	.HeaderMenu ul>li .child-trigger { position: absolute; right: 0px; top: 0px; width: 35px; background-color: #683118; }
+	.HeaderMenu ul>li .child-trigger span { width: 8px; height: 8px; display: inline-block; margin-left: 8px; border: 1px solid var(--Color-White); border-top: none; border-right: none; position: absolute; top: 50%; transform: translate(-50%, -50%) rotate(-45deg); left: calc(50% - 8px); }
+	.HeaderMenu>ul>li>ul, .HeaderMenu>ul>li>ul>li>ul { display: none; margin-top: 0px; }
+	.HeaderMenu ul>li>a { border-bottom: 1px solid #683118; color: var(--Color-White); display: block; font-size: var(--Font-16); }
+	header .parent-trigger .fa-solid.fa-xmark { display: none; }
+	.MenuOpen header .parent-trigger span.fa-solid.fa-bars-staggered { display: none; }
+	.MenuOpen header .parent-trigger .fa-solid.fa-xmark { display: inline-block; }
+	.Accommodation-Links .Thumb { width: 70px; height: 70px; }
+	.Accommodation-Links>a { min-width: 175px; }
+}
+@media (max-width:991px) {
+	:root { --Font-92:4.428571428571429em; --Font-67:52px; --Font-64:50px; --Font-50:40px; --Font-42:35px; --Font-40:34px; --Font-39:32px; --Font-32:26px; --Font-28:24px; --Font-27:22px; --Font-26:21px; --Font-24:20px; --Font-22:18px; --Font-20:17px; --Font-18:16px; --Font-16:1em; --Font-15:0.9375em; --Font-14:0.875em; }
+	.LogoPartHeader { width: 260px; }
+	.MenuPartHeader { width: calc(100% - 260px); }
+	.SearchIcon, .AccessibilityIcon, .parent-trigger { width: 35px; height: 35px; }
+	img.FloatRight { margin-left: 25px; margin-bottom: 15px; max-width: 45%; border-radius: 15px; }
+	.BannerHome .swiper-pagination-bullet { width: 12px; height: 12px; margin-right: 10px !important; }
+	.BharatiyaDivas .LeftPart { width: 100%; }
+	.BharatiyaDivas .RightPart { width: 100%; padding-top: 30px; padding-left: 15px; }
+	.Reasons .LeftPart { width: 100%; }
+	.BharatiyaDivas .LeftPart .Thumb { margin-top: unset; }
+	.Reasons .RightPart { width: 100%; margin-top: 30px; }
+	.MarqueeBlock .LeftPart { width: 45%; }
+	.MarqueeBlock .RightPart { width: 55%; }
+	.BharatiyaDivas .ShadowBox { padding: 30px 30px 40px; margin-top: unset; }
+	.BharatiyaDivas .BottomPart { padding-top: 32px; }
+	.ProgrammeHighlights .TextWrap { padding: 15px 25px 0px 25px; }
+	.ProgrammeHighlights .Title { padding: 15px 25px 15px 25px; }
+	.ProgrammeHighlights .cta-link { margin-left: 25px; }
+	.ProgrammeHighlights .ProgrammeBox { border-radius: 25px; }
+	.ProgrammeHighlights .Thumb { border-top-left-radius: 25px; border-top-right-radius: 25px; }
+	.HeadingBox { margin-bottom: 30px; }
+	.BharatiyaDivas { padding: 60px 0px 60px; }
+	.BharatiyaDivas .BigText { display: none; }
+	.ProgrammeHighlights, .PBD_Conventions, .Reasons { padding: 60px 0px; }
+	.GlimpsePBD .PlayBtnVideo { width: 70px; height: 70px; }
+	.GlimpsePBD .Heading { margin: 26px 0px 14px; }
+	.DepartmentLogo { padding: 30px 0px; }
+	.Reasons .ReasonsContent { padding: 30px 30px; min-height: 450px; }
+	.BannerHome .Box18th { max-width: 130px; top: -7px; }
+	.BannerHome .Heading h2 { text-indent: 135px; }
+	.PBDCountdown .Title { padding: 15px 20px; letter-spacing: 1.5px; }
+	.BannerHome { height: 650px; }
+	.PBD_Conventions .ScaleBox .ConventionsBox { margin-left: 0; margin-right: 0; margin-top: 0; }
+	.PBD_Conventions .Title { margin: 3px 0px 15px; }
+	.PBD_Conventions .ScaleBox .sub-text { display: none; }
+	.PBD_Conventions .ScaleBox .Thumb { padding-bottom: 71%; }
+	.PBD_Conventions .TextContent { padding: 20px 20px 25px; }
+	.GlimpsePBD { min-height: 600px; }
+	.HighlightsSwiper, .PBD_ConventionsSwiper { overflow: hidden; }
+	.Reasons .ReasonsText { padding: 15px 28px; letter-spacing: 4.4px; }
+	.Reasons .Box18th { max-width: 180px; }
+	.PBD_Conventions .ConventionsBox:hover { transform: scale(1); }
+	.PravasiBhartiyaBlock { padding: 60px 0px 110px; }
+	.MessageMinister .TextBlockWrap { margin: -125px 0px 50px; }
+	.SammanAward { padding: 50px 0px 70px; }
+	.VideoBox .PlayBtnVideo { width: 70px; height: 70px; }
+	.VideoBox { border: 15px solid var(--Color-White); }
+	.MessageMinister .TextBlock { padding: 20px 22px; }
+	.Mt-30 { margin-top: 25px; }
+	.Nmt-30 { margin-top: -25px; }
+	.section-padding { padding: 50px 0px; }
+	.PravasiBhartiyaBlock.madhyapradesh { padding: 50px 0px 50px; }
+	.Page404.pageThankYou .TitleText { font-size: 50px; }
+	.Page404.pageThankYou.p404 .TitleText { font-size: 110px; }
+	.Registration .Button { padding: 25px 20px; }
+	.BannerHome .Heading h2 { letter-spacing: -1px; }
+	.BannerHome .Heading .Year { letter-spacing: -0.84px; }
+	.SearchBoxGlobal ul li a { padding: 14px; min-width: 160px; }
+	.SearchBoxGlobal ul li { margin: 5px; }
+	.SearchBoxGlobal { padding: 30px 25px; }
+	.Registration .RegisterBox { width: 50%; }
+	.PBD_Conventions .PBD_ConventionsSwiper { max-width: 100%; }
+	.PBD_Conventions .Title { font-size: var(--Font-26); }
+	.PBD_ConventionsSwiper .swiper-slide.Active { transform: scale(1); }
+	ul.NumberedList li:before { width: 35px; height: 35px; margin-right: 15px; min-width: 35px; min-height: 35px; }
+	ul.NumberedList li { margin-bottom: 20px; }
+	.mjsontable>.pull-right { top: 7px; }
+	.BreadcrumbBox ul li.HomeLink a { padding: 9px 9px; font-size: 16px; }
+	.BreadcrumbBox ul li { margin-top: 0px; }
+	.BreadcrumbBox ul li.HomeLink { padding-right: 10px; }
+	.BreadcrumbBanner { padding-bottom: unset; height: 350px; }
+	.BreadcrumbBanner .BreadcrumbBox_Row { position: relative; left: 0; bottom: unset; z-index: 11; width: 100%; }
+	.BreadcrumbBox ul { border-radius: 6px; padding: 0px 15px 0px 0px; margin-top: 15px; }
+	.BreadcrumbBox ul li:after { margin: 4px 8px 0px 5px; }
+	.BreadcrumbBanner .BreadcrumbBox_Row > .container { padding-left: 0px; padding-right: 0px; }
+	body.about-odisha .BreadcrumbBanner img { height: 100%; }
+	.Programme .DayText { left: unset; right: unset; position: relative; }
+	.Programme .LeftProgramme .DayText { left: unset; right: unset; }
+	.Programme .RightProgramme .DayText { right: unset; left: unset; }
+	.Programme .DayText:after { left: 74px; top: 50%; transform:unset; transform: translateY(-50%); height: 2px; width: 100px; }
+	.Programme .DayText span { font-size: 24px; }
+	.Programme .LeftProgramme, .Programme .RightProgramme { padding-top: 0px; }
+	.Programme .LeftProgramme { padding-left: 15px; }
+	.Programme .RightProgramme { padding-right: 15px; }
+	body.programme .BreadcrumbBox .PageTitle { margin: 40px auto 0px; padding: 10px 20px; }
+	.RegisterNow, .BoostrapDropdownBox .Button { padding: 10px 15px; }
+	.BoostrapDropdownBox ul li a { padding: 8px 0px; }
+}
+@media (max-width:767px) {
+	:root { --Font-92:3.7142857142857144em; --Font-67:48px; --Font-64:46px; --Font-50:36px; --Font-42:32px; --Font-40:30px; --Font-39:28px; --Font-32:24px; --Font-28:22px; --Font-27:21px; --Font-26:20px; --Font-24:19px; --Font-22:17px; --Font-20:16px; --Font-18:16px; --Font-16:1em; --Font-15:0.9375em; --Font-14:0.875em; }
+	.rounded-30 { border-radius: 25px; }
+	.rounded-20 { border-radius: 15px; }
+	img.FloatRight { margin-left: 0px; margin-bottom: 20px; max-width: 100%; width: 100%; border-radius: 15px; }
+	.LogoPartHeader { width: 240px; }
+	.MenuPartHeader { width: calc(100% - 240px); }
+	.Search, .Accessibility, .RegisterNow, .parent-trigger, .BoostrapDropdownBox { margin-left: 8px; }
+	.BannerHome .swiper-pagination-bullet { width: 10px; height: 10px; margin-right: 8px !important; }
+	.MarqueeBlock .LeftPart { width: 100%; }
+	.MarqueeBlock .RightPart { width: 100%; margin-top: 12px; }
+	.BharatiyaDivas .ShadowBox { padding: 20px 20px 40px; }
+	.BharatiyaDivas .BottomPart { padding-top: 22px; }
+	.HeadingBox { margin-bottom: 25px; }
+	.BharatiyaDivas { padding: 50px 0px 50px; }
+	.ProgrammeHighlights, .PBD_Conventions, .Reasons { padding: 50px 0px; }
+	.GlimpsePBD .TextContent { padding: 0px 0px 30px; }
+	.GlimpsePBD .Heading { margin: 24px 0px 12px; }
+	.DepartmentLogo { padding: 25px 0px; }
+	.Reasons .ReasonsContent { padding: 30px 20px; min-height: 450px; }
+	.BreadcrumbBanner .BreadcrumbBox_Row { display: none; }
+	.BannerHome .Box18th { max-width: 120px; top: -24px; }
+	.BannerHome .Heading h2 { text-indent: 125px; }
+	.BannerHome { height: 630px; }
+	.GlimpsePBD { min-height: 550px; }
+	.Reasons .ReasonsText { padding: 14px 26px; letter-spacing: 3.4px; }
+	.Reasons .Box18th { max-width: 160px; }
+	.FooterLink { padding-top: 20px; }
+	.PBD_Conventions .ConventionsBox, .Reasons .ReasonsContent, .BharatiyaDivas .ShadowBox:after, .BharatiyaDivas .ShadowBox, .ReasonsSocial, .Reasons.QRCode .Thumb { border-radius: 15px; }
+	.PBD_Conventions .Thumb { border-top-left-radius: 15px; border-top-right-radius: 15px; }
+	.ProgrammeHighlights .Title { padding: 10px 20px 10px 20px; }
+	.ProgrammeHighlights .TextWrap { padding: 15px 20px 0px 20px; }
+	.ProgrammeHighlights .cta-link { margin-left: 20px; }
+	.ProgrammeHighlights .ProgrammeBox { border-radius: 15px; }
+	.ProgrammeHighlights .Thumb { border-top-left-radius: 15px; border-top-right-radius: 15px; }
+	.ReasonsSocial { padding: 15px 20px 20px; }
+	.MessageMinister .TextBlockWrap { margin: -125px 0px 40px; }
+	.PravasiBhartiyaBlock { padding: 50px 0px 110px; }
+	.SammanAward { padding: 50px 0px 60px; }
+	.VideoBox { border: 15px solid var(--Color-White); }
+	.MessageMinister .TextBlock { padding: 20px 20px; }
+	.ShadowBox { padding: 25px; }
+	.section-padding { padding: 40px 0px; }
+	.PravasiBhartiyaBlock.madhyapradesh { padding: 40px 0px 40px; }
+	.Page404.pageThankYou .TitleText { font-size: 40px; }
+	.Page404.pageThankYou.p404 .TitleText { font-size: 100px; }
+	.Registration .RegisterBox { width: 50%; }
+	.Registration .Button { width: 100%; }
+	.BannerHome .Heading h2 { letter-spacing: -0.68px; }
+	.BannerHome .Heading .Year { letter-spacing: -0.84px; }
+	.SearchBoxGlobal ul li { margin: 4px; }
+	.SearchBoxGlobal ul li a { padding: 12px; min-width: 150px; }
+	.SearchBoxGlobal { padding: 30px 20px; }
+	.Marquee { border-top-left-radius: 14px; border-top-right-radius: 14px; }
+	.Accommodation-Links>a { min-width: 155px; padding: 15px 15px; }
+	.Accommodation-Links .Thumb { width: 60px; height: 60px; }
+	ul.NumberedList li:before { width: 30px; height: 30px; min-width: 30px; min-height: 30px; margin-right: 10px; }
+	.BreadcrumbBanner { padding-bottom: unset; height: 300px; }
+	body.programme .BreadcrumbBox .PageTitle { margin: 43px auto 0px; padding: 15px 20px; }
+	.AccessibilitySearch .Button.BookAccomnodation { font-size: 0px; border-radius: 50%; padding: 0; width: 35px; height: 35px; display: flex; justify-content: center; align-items: center; }
+	.AccessibilitySearch .Button.BookAccomnodation:after { content: "\e1b0"; font-family: var(--FontFamily-fontawesome); font-size: 17px; }
+}
+@media (max-width:575px) {
+	:root { --Font-92:3em; --Font-67:44px; --Font-64:42px; --Font-50:32px; --Font-42:28px; --Font-40:26px; --Font-39:25px; --Font-32:22px; --Font-28:20px; --Font-27:20px; --Font-26:18px; --Font-24:16px; --Font-22:16px; --Font-20:16px; --Font-18:16px; --Font-16:1em; --Font-15:0.9375em; --Font-14:0.875em; }
+	.rounded-30 { border-radius: 20px; }
+	.rounded-20 { border-radius: 10px; }
+	.rounded-15 { border-radius: 7px; }
+	.Search, .Accessibility, .RegisterNow, .parent-trigger, .BoostrapDropdownBox, .RegisterNow.Login { margin-left: 8px; }
+	.SearchBox { right: -45px; }
+	.SearchBox .search { min-width: 260px; }
+	.AccessibilitySearch { width: 100%; padding-top: 10px; }
+	.SearchBox:after { right: 52px; }
+	.SearchBox { top: calc(100% + 13px); }
+	.LogoPartHeader { width: 100%; padding: 0; justify-content: center; }
+	.MenuPartHeader { width: 100%; margin-top: 5px; }
+	header { padding: 10px 0px; }
+	.BharatiyaDivas .ShadowBox { padding: 15px 15px 30px; }
+	.BharatiyaDivas .BottomPart { padding-top: 15px; }
+	.BharatiyaDivas { padding: 40px 0px 40px; }
+	.ProgrammeHighlights, .PBD_Conventions, .Reasons { padding: 40px 0px; }
+	.ProgrammeHighlights .TextWrap { padding: 10px 15px 0px 15px; }
+	.ProgrammeHighlights .Title { padding: 10px 15px 10px 15px; }
+	.ProgrammeHighlights .cta-link { margin-left: 15px; }
+	.GlimpsePBD .PlayBtnVideo { width: 50px; height: 50px; }
+	.GlimpsePBD .TextContent { padding: 0px 0px 20px; }
+	.GlimpsePBD .Heading { margin: 20px 0px 10px; }
+	.DepartmentLogo { padding: 20px 0px; }
+	.Reasons .ReasonsContent { padding: 30px 15px; min-height: auto; }
+	.BannerHome .Heading .Year { display: block; margin-bottom: 10px; }
+	.BannerHome .Box18th { max-width: 100px; top: -32px; }
+	.BannerHome .Heading h2 { text-indent: 115px; }
+	.PBDCountdown .Title { padding: 14px 18px; letter-spacing: 1.2px; }
+	.BannerHome { height: 630px; }
+	.PBD_Conventions .TextContent { padding: 20px 15px 20px; }
+	.GlimpsePBD { min-height: 500px; }
+	.Reasons .ReasonsText { padding: 12px 24px; letter-spacing: 2.4px; }
+	.Reasons .Box18th { max-width: 135px; }
+	.PBD_Conventions .Heading { width: 100%; padding-bottom: 10px; }
+	footer .FooterLogo { margin: 0 auto; }
+	.SocialIcons ul { justify-content: center; }
+	.FooterLink ul { justify-content: center; }
+	.Visitors, .Copyright { text-align: center; }
+	.SocialIcons li { margin-right: 3px; margin-left: 3px; }
+	.HeaderMenu { top: calc(100% + 0px); }
+	.RegisterNow { margin-left: 0px; }
+	.AccessibilitySearch .Button.BookAccomnodation { order: 2; margin-right: 0px; margin-left: 8px; }
+	.BoostrapDropdownBox ul li a { padding: 7px 0px; }
+	.ReasonsSocial { padding: 15px 15px 15px; }
+	.PravasiBhartiyaBlock { padding: 40px 0px 110px; }
+	.SammanAward { padding: 50px 0px 50px; }
+	.VideoBox .PlayBtnVideo { width: 50px; height: 50px; }
+	.MessageMinister .TextBlock { padding: 15px; }
+	.ShadowBox { padding: 20px; }
+	.CaptchaWrap .CaptchaWrapFlex { flex-wrap: wrap; }
+	.CaptchaWrap img#captcha { margin-left: 0px; }
+	.CaptchaWrap .captchaSet { margin-bottom: 9px; }
+	.countryCode { flex-wrap: wrap; }
+	.countryCode .code { width: 100%; margin-bottom: 10px; margin-right: 0px; }
+	.countryCode div.number { width: calc(100% - 0px); }
+	.BoostrapDropdownBox { margin-left: 0px; }
+	.PravasiBhartiyaBlock.madhyapradesh .MP-row { padding-bottom: 30px; }
+	.programme .PravasiBhartiyaBlock.madhyapradesh .MP-row { padding-bottom: 50px; }
+	.Page404.pageThankYou .TitleText { font-size: 40px; }
+	.Page404.pageThankYou.p404 .TitleText { font-size: 80px; }
+	.BankMethods .form-check { width: calc((100% / 2) - 20px); }
+	.PaymentBox span { width: 100%; margin-bottom: 5px; }
+	.Registration .RegisterBox { width: 50%; }
+	.Search { margin-left: 0px; }
+	.SearchBoxGlobal ul li { width: 100%; }
+	.SearchBoxGlobal ul li a { min-width: 100%; }
+	.SearchBoxGlobal { padding: 30px 15px; }
+	.BreadcrumbBanner { padding-bottom: unset; height: 280px; }
+	.SearchIcon svg, .AccessibilityIcon svg, .SearchIcon img, .AccessibilityIcon img { max-width: 55%; }
+	ul.NumberedList li { align-items: start; }
+	ul.NumberedList li:before { margin-top: 5px; }
+}
+@media (max-width:440px) {
+	.PBDCountdown .CountdownWrap { padding: 20px 15px 20px; }
+	.PBDCountdown .DaysBox { padding-right: 10px; }
+}
+@media (max-width:360px) {
+	.Registration .RegisterBox { width: 100%; }
+}

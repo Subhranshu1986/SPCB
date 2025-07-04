@@ -1,1168 +1,2220 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  
-	<link rel="stylesheet" href="assets/css/function.min.css"/>
-	<link rel="stylesheet" href="assets/css/style.css"/>
-	<link rel="stylesheet" href="assets/css/responsive.css"/>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<script src="assets/js/jquery.min.js"></script>
-  <title>State Pollution Control Board, Odisha</title>
-  <link rel="icon" type="image/png" href="assets/images/Favicon.png">
-</head>
+    <link rel="stylesheet" href="assets/css/function.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
 
-<body>
-  <a href="#" class="back-to-top" title="Back to Top">&#8679;</a>
+    <script src="assets/js/jquery.min.js"></script>
+    <title>State Pollution Control Board, Odisha</title>
+    <link rel="icon" type="image/png" href="assets/images/Favicon.png" />
+  </head>
 
- <header class="">
-  <div class="HeaderBottom BG-black">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <div  class="TopLink">
-            <ul>
-              <li><a href="#"> Government of Odisha |</a></li>
-              <li><a href="#">ଓଡ଼ିଶା ସରକାର </a> </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-8 d-flex justify-content-end">
-          <div  class="TopLink">
-            <ul>
-              <li><a href="#"><i class="fa fa-clipboard"></i> RTI</a></li>
-              <li><a href="#"><i class="fa fa-question-circle"></i> FAQ</a></li>
-              <li><a href="#"><i class="fa fa-comments"></i> Suggestions</a></li>
-              <li><a href="#"><i class="fa fa-sitemap"></i> Sitemap</a> </li>
-              <li><a href="#"><i class="fa fa-phone"></i> Contact Us </a> </li>
+  <body>
+    <div id="loader">
+      <div class="loader-content">
+        <img src="assets/images/spcb.png" alt="Logo" class="loader-logo" />
+      </div>
+    </div>
 
-              <li>
-                <a href="#" target="_self" title="Facebook Link">
-                  <img src="assets/images/icons8-facebook-24.png" alt="View On Facebook" title="View On Facebook" class="custom-svg-icon text-white">              </a>
-              </li>
-              <li>
-                <a href="#" target="_self" title="Twitter Link">
-                  <img src="assets/images/x-social-media-logo-icon.png" alt="View On Twitter" title="View On Twitter" class="custom-svg-icon ">              </a>
-              </li>
-              <li>
-                <a href="#" target="_self" title="Youtube Link">
-                  <img src="assets/images/icons8-youtube-24.png" alt="View On YouTube" title="View On YouTube" class="custom-svg-icon">              </a>
-              </li>
-              <li>
-                <a href="#" target="_self" title="Instagram Link">
-                  <img src="assets/images/icons8-instagram-24.png" alt="View On Instagram" title="View On Instagram" class="custom-svg-icon">              </a>
-              </li>
-              <li>
-                <div class="d-flex flex-wrap justify-content-end">
-                  <div class=" d-flex justify-content-between justify-content-sm-end align-items-center AccessibilitySearch">
-                    <div class="d-flex">
-                      <div class="Search">
-                <button class="SearchIcon" title="Search">
-                  <img src="assets/images/search_icon.svg" class="custom-svg-icon" alt="Search"/>                </button>
-                <div class="SearchBox">
-                  <form action="#" id="search_data" name="search_data" method="get" class="search-form">
-                    <label for="search_value" class="visually-hidden">search</label>
-                    <input type="text" placeholder="Namaste! What Can I find for you?" class="search"
-                      id="search_value" name="search_value">
-                     <input type="submit" class="submit" value="submit" id="search-submit">
-                  </form>
-                </div>
+    <a href="#" class="back-to-top" title="Back to Top">&#8679;</a>
+
+    <header class="">
+      <div class="HeaderBottom BG-black">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="TopLink">
+                <ul>
+                  <li><a href="#"> Government of Odisha |</a></li>
+                  <li><a href="#">ଓଡ଼ିଶା ସରକାର </a></li>
+                </ul>
               </div>
-                      <div class="Accessibility">
-                        <button class="AccessibilityClick AccessibilityIcon" title="Accessibility">
-                          <img src="assets/images/accessibility.svg" class="custom-svg-icon" alt="Accessibility"/>                </button>
-                         <div class="AccessibilityPopUP" id="AccessibilityControl">
-            <h4 class="mb-0 position-relative Heading">Accessibility Control<a title="Accessibility Control" href="#" class="AccessibilityClick"><span class="fa fa-times"></span></a></h4>
-            <ul class="d-flex flex-wrap">
-              <li class="d-flex align-items-center flex-wrap justify-content-center text-center">
-                <div class="fontScalerGrp">
-                  <input type="button" name="font_normal" value="A-" id="font_normal" title="Small Font Size" class="fontScaler normal font-normal">
-                  <input type="button" name="font_large" value="A" id="font_large" title="Normal Font Size" class="fontScaler large font-large current">
-                  <input type="button" name="font_larger" value="A+" id="font_larger" title="Larger Font Size" class="fontScaler larger font-larger">
-                  <span>Text Resize</span>
-                </div>
-              </li>
-              <li class="d-flex align-items-center flex-wrap justify-content-center text-center">
-                <div class="fontScalerGrp">
-                  <input type="button" name="normal" value="Standard View" id="normal" title="Standard View" class="contrastChanger normal current" />
-                  <input type="button" name="wob" value="High Contrast View" id="wob" title="High Contrast View" class="contrastChanger wob" />
-                  <span>Contrast View</span>
-                </div>
-              </li>
-              <li class="d-flex align-items-center flex-wrap justify-content-center text-center">
-                <div class="fontScalerGrp">
-                  <span><a href="#content" title="Skip to Main Content" class="skip-link">Skip to Main Content</a></span>
-                </div>
-              </li>
-              <li class="d-flex align-items-center flex-wrap justify-content-center text-center">
-                <div class="fontScalerGrp">
-                  <span><a class="readerAccess" title="Screen Reader Access" href="#">Screen Reader Access</a></span>
-                </div>
-              </li>
+            </div>
+            <div class="col-lg-8 d-flex justify-content-end">
+              <div class="TopLink">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa fa-clipboard"></i> RTI</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-question-circle"></i> FAQ</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-comments"></i> Suggestions</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-sitemap"></i> Sitemap</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-phone"></i> Contact Us </a>
+                  </li>
 
-            </ul>
-          </div>
+                  <li>
+                    <a href="#" target="_self" title="Facebook Link">
+                      <img
+                        src="assets/images/icons8-facebook-24.png"
+                        alt="View On Facebook"
+                        title="View On Facebook"
+                        class="custom-svg-icon text-white"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_self" title="Twitter Link">
+                      <img
+                        src="assets/images/x-social-media-logo-icon.png"
+                        alt="View On Twitter"
+                        title="View On Twitter"
+                        class="custom-svg-icon"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_self" title="Youtube Link">
+                      <img
+                        src="assets/images/icons8-youtube-24.png"
+                        alt="View On YouTube"
+                        title="View On YouTube"
+                        class="custom-svg-icon"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_self" title="Instagram Link">
+                      <img
+                        src="assets/images/icons8-instagram-24.png"
+                        alt="View On Instagram"
+                        title="View On Instagram"
+                        class="custom-svg-icon"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <div class="d-flex flex-wrap justify-content-end">
+                      <div
+                        class="d-flex justify-content-between justify-content-sm-end align-items-center AccessibilitySearch"
+                      >
+                        <div class="d-flex">
+                          <div class="Search">
+                            <button class="SearchIcon" title="Search">
+                              <img
+                                src="assets/images/search_icon.svg"
+                                class="custom-svg-icon"
+                                alt="Search"
+                              />
+                            </button>
+                            <div class="SearchBox">
+                              <form
+                                action="#"
+                                id="search_data"
+                                name="search_data"
+                                method="get"
+                                class="search-form"
+                              >
+                                <label
+                                  for="search_value"
+                                  class="visually-hidden"
+                                  >search</label
+                                >
+                                <input
+                                  type="text"
+                                  placeholder="Namaste! What Can I find for you?"
+                                  class="search"
+                                  id="search_value"
+                                  name="search_value"
+                                />
+                                <input
+                                  type="submit"
+                                  class="submit"
+                                  value="submit"
+                                  id="search-submit"
+                                />
+                              </form>
+                            </div>
+                          </div>
+                          <div class="Accessibility">
+                            <button
+                              class="AccessibilityClick AccessibilityIcon"
+                              title="Accessibility"
+                            >
+                              <img
+                                src="assets/images/accessibility.svg"
+                                class="custom-svg-icon"
+                                alt="Accessibility"
+                              />
+                            </button>
+                            <div
+                              class="AccessibilityPopUP"
+                              id="AccessibilityControl"
+                            >
+                              <h4 class="mb-0 position-relative Heading">
+                                Accessibility Control<a
+                                  title="Accessibility Control"
+                                  href="#"
+                                  class="AccessibilityClick"
+                                  ><span class="fa fa-times"></span
+                                ></a>
+                              </h4>
+                              <ul class="d-flex flex-wrap">
+                                <li
+                                  class="d-flex align-items-center flex-wrap justify-content-center text-center"
+                                >
+                                  <div class="fontScalerGrp">
+                                    <input
+                                      type="button"
+                                      name="font_normal"
+                                      value="A-"
+                                      id="font_normal"
+                                      title="Small Font Size"
+                                      class="fontScaler normal font-normal"
+                                    />
+                                    <input
+                                      type="button"
+                                      name="font_large"
+                                      value="A"
+                                      id="font_large"
+                                      title="Normal Font Size"
+                                      class="fontScaler large font-large current"
+                                    />
+                                    <input
+                                      type="button"
+                                      name="font_larger"
+                                      value="A+"
+                                      id="font_larger"
+                                      title="Larger Font Size"
+                                      class="fontScaler larger font-larger"
+                                    />
+                                    <span>Text Resize</span>
+                                  </div>
+                                </li>
+                                <li
+                                  class="d-flex align-items-center flex-wrap justify-content-center text-center"
+                                >
+                                  <div class="fontScalerGrp">
+                                    <input
+                                      type="button"
+                                      name="normal"
+                                      value="Standard View"
+                                      id="normal"
+                                      title="Standard View"
+                                      class="contrastChanger normal current"
+                                    />
+                                    <input
+                                      type="button"
+                                      name="wob"
+                                      value="High Contrast View"
+                                      id="wob"
+                                      title="High Contrast View"
+                                      class="contrastChanger wob"
+                                    />
+                                    <span>Contrast View</span>
+                                  </div>
+                                </li>
+                                <li
+                                  class="d-flex align-items-center flex-wrap justify-content-center text-center"
+                                >
+                                  <div class="fontScalerGrp">
+                                    <span
+                                      ><a
+                                        href="#content"
+                                        title="Skip to Main Content"
+                                        class="skip-link"
+                                        >Skip to Main Content</a
+                                      ></span
+                                    >
+                                  </div>
+                                </li>
+                                <li
+                                  class="d-flex align-items-center flex-wrap justify-content-center text-center"
+                                >
+                                  <div class="fontScalerGrp">
+                                    <span
+                                      ><a
+                                        class="readerAccess"
+                                        title="Screen Reader Access"
+                                        href="#"
+                                        >Screen Reader Access</a
+                                      ></span
+                                    >
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="HeaderTop">
-    <div class="container-xl">
-      <div class="d-flex flex-wrap align-items-center position-relative">
-        <!-- Left Logo -->
-        <div class="col-lg-10 d-flex justify-content-start">
-          <div class="LogoPartHeader">
-            <h1 class="mb-0">
-              <a href="index.html">
-                <img src="assets/images/logo.png" alt="" title=""/>
-              </a>
-            </h1>
-          </div>
-        </div>
-        <!-- Center Logo -->
-          
-          <div class="col-lg-2 d-flex justify-content-end">
-            <div class=" d-flex align-items-center LogoPartHeader">
-              <h1 class="d-flex align-items-center mb-0">
-                <a href="index.html">
-                  <img src="assets/images/govtodisha-logo.png" alt="" title=""/></a>
-              </h1>
-            </div>
-            </div>
-      </div>
-    </div>
-  </div>
-  <div class="HeaderBottom">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div id="mainNav" class="HeaderMenu justify-content-between">
-            <ul id="nav">
-              <li><a href="index.html" class="active">Home</a></li>
-              <li>
-                <a href="javascript:void(0);" title="About Us">About Us</a>
-                <ul class="dropdown-content">
-                  <li>
-                    <a href="#" title="Constitution of SPCB">Constitution of SPCB</a>
-                  </li>
-                  <li>
-                    <a href="#" title="Organizational Structure">Organizational Structure</a>
-                  </li>
-                  <li>
-                    <a href="a#" title="Board Members">Board Members</a>
-                  </li>
-                  <li>
-                    <a href="#" title="Jurisdiction of Offices & Office Network">Jurisdiction of Offices & Office Network</a>
-                  </li>
-                  <li>
-                    <a href="#" title="Employee Corner">Employee Corner</a>
-                  </li>
-                  <li>
-                    <a href="a#" title="Annual Report Waste Managements">Annual Report Waste Managements</a>
                   </li>
                 </ul>
-              </li>
-              <li class="InformationLi">
-                <a href="javascript:void(0)" title="Information">Divisions</a>
-                <ul class="dropdown-content">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="HeaderTop">
+        <div class="container-xl">
+          <div class="d-flex flex-wrap align-items-center position-relative">
+            <!-- Left Logo -->
+            <div class="col-lg-10 d-flex justify-content-start">
+              <div class="LogoPartHeader">
+                <h1 class="mb-0">
+                  <a href="index.html">
+                    <img src="assets/images/logo.png" alt="" title="" />
+                  </a>
+                </h1>
+              </div>
+            </div>
+            <!-- Center Logo -->
+
+            <div class="col-lg-2 d-flex justify-content-end">
+              <div class="d-flex align-items-center LogoPartHeader">
+                <h1 class="d-flex align-items-center mb-0">
+                  <a href="index.html">
+                    <img
+                      src="assets/images/govtodisha-logo.png"
+                      alt=""
+                      title=""
+                  /></a>
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="HeaderBottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div id="mainNav" class="HeaderMenu justify-content-between">
+                <ul id="nav">
+                  <li><a href="index.html" class="active">Home</a></li>
                   <li>
-                    <a href="javascript:void(0)">Consent Management Division</a>
-                    <ul>
-                      <li><a href="#">Consent to Establish</a></li>
-                      <li><a href="#">Consent to Operate</a></li>
-                      <li><a href="#">Public Hearing</a></li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)">Waste Management Division</a>
-                    <ul>
-                      <li><a href="#">Hazardous Waste Management</a></li>
-                      <li><a href="#">Bio Medical Waste Management</a></li>
-                      <li><a href="#">Municipal Solid Waste Management</a></li>
-                      <li><a href="#">Plastic Waste Management</a></li>
-                      <li><a href="#">E-Waste Management</a></li>
-                      <li><a href="#">Fly Ash Resource Centre</a></li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)">Central Laboratory</a>
-                    <ul>
-                      <li href="javascript:void(0)"><a href="#">About Central Lab</a>
-                      <ul>
-                      <li><a href="#">Chemical Laboratory</a></li>
-                      <li><a href="#">Biological  Laboratory</a></li>
-                      <li><a href="#">Air Laboratory</a></li>
-                      <li><a href="#">Soil and Hazardous Waste Laboratory</a></li>
-                      <li><a href="#">Scientific Purchase</a></li>
-                      </ul>
+                    <a href="javascript:void(0);" title="About Us">About Us</a>
+                    <ul class="dropdown-content">
+                      <li>
+                        <a href="#" title="Constitution of SPCB"
+                          >Constitution of SPCB</a
+                        >
                       </li>
-                      <li><a href="#">Analysis Rate Chart</a></li>
+                      <li>
+                        <a href="#" title="Organizational Structure"
+                          >Organizational Structure</a
+                        >
+                      </li>
+                      <li>
+                        <a href="a#" title="Board Members">Board Members</a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          title="Jurisdiction of Offices & Office Network"
+                          >Jurisdiction of Offices & Office Network</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#" title="Employee Corner">Employee Corner</a>
+                      </li>
+                      <li>
+                        <a href="a#" title="Annual Report Waste Managements"
+                          >Annual Report Waste Managements</a
+                        >
+                      </li>
                     </ul>
                   </li>
-                  <li><a href="#">Central Library</a></li>
-                  <li><a href="#">Legal Cell</a></li>
+                  <li class="InformationLi">
+                    <a href="javascript:void(0)" title="Information"
+                      >Divisions</a
+                    >
+                    <ul class="dropdown-content">
+                      <li>
+                        <a href="javascript:void(0)"
+                          >Consent Management Division</a
+                        >
+                        <ul>
+                          <li><a href="#">Consent to Establish</a></li>
+                          <li><a href="#">Consent to Operate</a></li>
+                          <li><a href="#">Public Hearing</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)"
+                          >Waste Management Division</a
+                        >
+                        <ul>
+                          <li><a href="#">Hazardous Waste Management</a></li>
+                          <li><a href="#">Bio Medical Waste Management</a></li>
+                          <li>
+                            <a href="#">Municipal Solid Waste Management</a>
+                          </li>
+                          <li><a href="#">Plastic Waste Management</a></li>
+                          <li><a href="#">E-Waste Management</a></li>
+                          <li><a href="#">Fly Ash Resource Centre</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)">Central Laboratory</a>
+                        <ul>
+                          <li href="javascript:void(0)">
+                            <a href="#">About Central Lab</a>
+                            <ul>
+                              <li><a href="#">Chemical Laboratory</a></li>
+                              <li><a href="#">Biological Laboratory</a></li>
+                              <li><a href="#">Air Laboratory</a></li>
+                              <li>
+                                <a href="#"
+                                  >Soil and Hazardous Waste Laboratory</a
+                                >
+                              </li>
+                              <li><a href="#">Scientific Purchase</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#">Analysis Rate Chart</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Central Library</a></li>
+                      <li><a href="#">Legal Cell</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);" title="Acts & Rules"
+                      >Acts & Rules</a
+                    >
+                    <ul class="dropdown-content">
+                      <li><a href="#">Water (PCP) Act, 1974</a></li>
+                      <li><a href="#">Air (PCP) Act, 1981</a></li>
+                      <li><a href="#">Cess Act</a></li>
+                      <li><a href="#">Environment Protection Act, 1986</a></li>
+                      <li><a href="#">Important Case Laws</a></li>
+                      <li><a href="#">Cess Act</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);" title="Guideline & Circulars"
+                      >Guideline & Circulars</a
+                    >
+                    <ul class="dropdown-content">
+                      <li><a href="#">Guidelines</a></li>
+                      <li>
+                        <a href="#">Circulars for Ease of Doing Business</a>
+                      </li>
+                      <li><a href="#">Notification/ Notice</a></li>
+                      <li><a href="#">Employment Notice</a></li>
+                      <li><a href="#">Office Order</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);" title="Programs & Projects"
+                      >Programs & Projects</a
+                    >
+                    <ul class="dropdown-content">
+                      <li><a href="#">CEPI</a></li>
+                      <li><a href="#">NCAP</a></li>
+                      <li><a href="#">NWMP</a></li>
+                      <li><a href="#">NAMP</a></li>
+                      <li><a href="#">DEMP</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Publication & Reports</a></li>
+                  <li>
+                    <a href="javascript:void(0);" title="Tender">Tender</a>
+                    <ul class="dropdown-content">
+                      <li><a href="#">Tender/Quotation/ Auction</a></li>
+                      <li><a href="#">Advertisement</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);" title="Public Awareness"
+                      >Public Awareness</a
+                    >
+                    <ul class="dropdown-content">
+                      <li><a href="#">Calender of Events</a></li>
+                      <li><a href="#">Activities</a></li>
+                      <li><a href="#">Success Stories</a></li>
+                    </ul>
+                  </li>
                 </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="position-relative BannerHome">
+      <div class="swiper BannerHomeSwiper h-100">
+        <div class="swiper-wrapper h-100">
+          <div class="swiper-slide h-100">
+            <div class="container h-100">
+              <div class="row h-100 align-items-center">
+                <div
+                  class="col-lg-12 d-flex flex-wrap align-items-center BannerHomeCol"
+                >
+                  <div class="BannerContent">
+                    <div class="Heading">
+                      <div class="d-flex flex-wrap align-items-center">
+                        <p class="DateLocation">
+                          <span class="Date"
+                            >Ek Ped Maa Ke Naam on the eve of WED- 2025</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              src="assets/images/banners/banner1.jpg"
+              alt="Banner"
+              class="img-center"
+            />
+          </div>
+
+          <div class="swiper-slide h-100">
+            <div class="container h-100">
+              <div class="row h-100 align-items-center">
+                <div
+                  class="col-lg-12 d-flex flex-wrap align-items-center BannerHomeCol"
+                >
+                  <div class="BannerContent">
+                    <div class="Heading">
+                      <div class="d-flex flex-wrap align-items-center">
+                        <p class="DateLocation">
+                          <span class="Date"
+                            >World Environment Day 2025 #END of Plastic
+                            Pollution</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              src="assets/images/banners/banner2.jpg"
+              alt="Banner"
+              class="img-center"
+            />
+          </div>
+          <div class="swiper-slide h-100">
+            <div class="container h-100">
+              <div class="row h-100 align-items-center">
+                <div
+                  class="col-lg-12 d-flex flex-wrap align-items-center BannerHomeCol"
+                >
+                  <div class="BannerContent">
+                    <div class="Heading">
+                      <div class="d-flex flex-wrap align-items-center">
+                        <p class="DateLocation">
+                          <span class="Date"
+                            >Member Secretary Presented Board’s publication to
+                            the Hon’ble Governor of Odisha</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              src="assets/images/banners/banner3.jpg"
+              alt="Banner"
+              class="img-center"
+            />
+          </div>
+          <div class="swiper-slide h-100">
+            <div class="container h-100">
+              <div class="row h-100 align-items-center">
+                <div
+                  class="col-lg-12 d-flex flex-wrap align-items-center BannerHomeCol"
+                >
+                  <div class="BannerContent">
+                    <div class="Heading">
+                      <div class="d-flex flex-wrap align-items-center">
+                        <p class="DateLocation">
+                          <span class="Date"
+                            >41st Foundation day of SPCB Odisha</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              src="assets/images/banners/banner4.jpg"
+              alt="Banner"
+              class="img-center"
+            />
+          </div>
+          <div class="swiper-slide h-100">
+            <div class="container h-100">
+              <div class="row h-100 align-items-center">
+                <div
+                  class="col-lg-12 d-flex flex-wrap align-items-center BannerHomeCol"
+                >
+                  <div class="BannerContent">
+                    <div class="Heading">
+                      <div class="d-flex flex-wrap align-items-center">
+                        <p class="DateLocation">
+                          <span class="Date"
+                            >Land Reclaiming at Legacy Waste</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              src="assets/images/banners/banner5.jpg"
+              alt="Banner"
+              class="img-center"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="HomeBannerControls">
+        <div class="HomeBannerPagination"></div>
+      </div>
+    </section>
+    <section class="MarqueeBlock">
+      <div class="container-fluid">
+        <div class="ShadowBox1 position-relative">
+          <div class="row">
+            <div class="col-lg-12 col-xl-12 LeftParttop">
+              <div class="Marquee">
+                <div class="MarqueeWrap">
+                  <h2 class="Font20 Font600 Updates">
+                    Air Quality Index:<a
+                      href="javascript:void(0)"
+                      title="MarqueeBtn"
+                      class="MarqueeBtn"
+                      ><span class="displayNone">MarqueeBtn</span>
+                    </a>
+                  </h2>
+                  <a href="#" class="cta-link" title="View All">View All</a>
+                  <div class="MarqueeBox">
+                    <ul id="marqueess">
+                      <li>
+                        <p>
+                          <strong>Date :</strong> 12.06.2025 |
+                          <strong>City :</strong> Bhubaneswar | Air Quality
+                          Index (AQI) Value: 53 Prominent Pollutants: PM10 |
+                          <strong>Status: </strong>Satisfactory=> Based on 03
+                          No. of Monitoring Stations. State Pollution Control
+                          Board, Odisha Ranked No. 1 on Public Disclosure
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="MarqueeBlock">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-5 col-xl-8 LeftPart">
+            <div class="marquee-section">
+              <div class="marquee-header">
+                <div class="marquee-heading">
+                  <h2 class="Font20 Font600 Updates">
+                    <span class="fa fa-newspaper"></span> News & Announcements
+                  </h2>
+                  <a href="#" class="view-all" title="View All">View All</a>
+                </div>
+              </div>
+              <div class="marquee-box">
+                <ul class="marquee-content">
+                  <li>
+                    <a href="#"
+                      >Press Release on State Level World Environment Day-2025 &
+                      Prakruti Mitra Award Distribution</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      >Representatives from Govt of Odisha are imparting a
+                      training on GEM portal procedures for field officials of
+                      SPCB, Odisha on 19.05.2025</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#">Framework for Circular Economy Vision 2036</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 col-xl-4 RightPart StatePollution">
+            <div class="SPCBCountdown">
+              <div class="CountdownWrap">
+                <div class="col-lg-12 BottomPart">
+                  <div class="row justify-content-center">
+                    <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                      <div
+                        class="Thumb1 m-auto d-block BG-A864E2 align-items-center"
+                      >
+                        <img
+                          src="assets/images/ministers/shri-mohan-charan-majhi.png"
+                          alt="Shri Mohan Charan Majhi"
+                          title="Shri Mohan Charan Majhi"
+                        />
+                      </div>
+                      <h3 class="Name Font14 Font700 text-center">
+                        Shri Mohan Charan Majhi
+                      </h3>
+                      <p class="Designation Font14 Font500 text-center">
+                        Hon'ble Chief Minister
+                      </p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                      <div
+                        class="Thumb m-auto d-block BG-F97722 align-items-center"
+                      >
+                        <img
+                          src="assets/images/ministers/ganesh-ram-singhkhuntia.png"
+                          alt="Shri Ganesh Ram Singhkhuntia"
+                          title="Shri Ganesh Ram Singhkhuntia"
+                        />
+                      </div>
+                      <h3 class="Name Font14 Font700 text-center">
+                        Shri Ganesh Ram Singhkhuntia
+                      </h3>
+                      <p class="Designation Font14 Font500 text-center">
+                        Hon'ble Minister of Forest, Environment & Climate
+                        Change, Labour & Employees State Insurance
+                      </p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                      <div class="Thumb m-auto d-block BG-55B7E2">
+                        <img
+                          src="assets/images/ministers/manoj-ahuja.png"
+                          alt="Shri Prem Kumar Jha"
+                          title="Shri Prem Kumar Jha"
+                        />
+                      </div>
+                      <h3 class="Name Font14 Font700 text-center">
+                        Shri Manoj Ahuja, IAS
+                      </h3>
+                      <p class="Designation Font14 Font500 text-center">
+                        Chairman, SPCB, Odisha
+                      </p>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                      <div class="Thumb m-auto d-block BG-55B7E2">
+                        <img
+                          src="assets/images/ministers/uma-nanduri.png"
+                          alt="Shri Prem Kumar Jha"
+                          title="Shri Prem Kumar Jha"
+                        />
+                      </div>
+                      <h3 class="Name Font14 Font700 text-center">
+                        Smt. Uma Nanduri , IFS
+                      </h3>
+                      <p class="Designation Font14 Font500 text-center">
+                        Member Secretary, SPCB, Odisha
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12 fullwidth StatePollution">
+            <div class="news-ticker">
+              <div class="ticker-wrap">
+                <div class="ticker-content">
+                  <span
+                    ><img
+                      src="assets/images/new.gif"
+                      alt=""
+                      title=""
+                      style="margin-top: 5px"
+                    />
+                    <a href="#"
+                      >OSPC Board has Lunched SACP State Clean Air Programme in
+                      12 Cities of Odisha.</a
+                    ></span
+                  >
+                  <span
+                    ><img
+                      src="assets/images/new.gif"
+                      alt=""
+                      title=""
+                      style="margin-top: 5px"
+                    />
+                    <a href="#"
+                      >All industry are requested to upload KML file with
+                      Consent applications. All 17 category units are requested
+                      to submit environmental statement before 30<sup>th</sup>
+                      September in ocmms portal. The user manual is
+                      avaliable.</a
+                    ></span
+                  >
+                  <span
+                    ><img
+                      src="assets/images/new.gif"
+                      alt=""
+                      title=""
+                      style="margin-top: 5px"
+                    />
+                    <a href="#"
+                      >All the Registered entities on Waste Tyre EPR Portal
+                      developed by CPCB, Delhi are hereby informed that timeline
+                      for Quarterly and Annually Return for the Financial year
+                      2023-24 has been extended till 31st December 2024.
+                    </a></span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="content" class="StatePollution">
+      <div class="container-fluid">
+        <div class="ShadowBox position-relative">
+          <div class="row">
+            <div class="col-lg-7 LeftPart">
+              <div class="Thumb">
+                <img
+                  src="assets/images/settings/wildlife-bulding.jpg"
+                  alt="18th Pravasi Bharatiya Divas"
+                  title="18th Pravasi Bharatiya Divas"
+                />
+              </div>
+            </div>
+            <div class="col-lg-5 RightPart">
+              <h3 class="Font36 Heading Color-291107">Constitution of SPCB</h3>
+              <div class="subtext Font16">
+                <p>
+                  The Odisha State Prevention and Control of Pollution Board was
+                  constituted in pursuance of sub-section (1) of section 4 of
+                  the Water (Prevention and Control of Pollution) (Amendment)
+                  Act, 1974, vide Notification No. 1481-VII-HI-11/83 (Vol.
+                  II)-S.T.E., dt. 15.7.1983 in the erstwhile Department of
+                  Science, Technology & Environment, Government of Odisha. The
+                  Board is also functioning as the State Board under section 5
+                  of the Air (P&CP) Act, 1981.The entire state of Odisha has
+                  been declared as Air Pollution Control Area since 18-07-2002.
+                  The Board was re-designated as State Pollution Control Board,
+                  Odisha vide Govt. Notification No. Env.-E (F)/8/89/1882 F&E,
+                  dt.16.07.1999.
+                </p>
+                <h3 class="Font22 Heading Color-291107">Functions of SPCB</h3>
+                <p>
+                  The State Pollution Control Board is entrusted with several
+                  functions under the provisions of Water (PCP) Act 1974, Air
+                  (PCP) Act 1981, Water Cess Act 1977 and different Rules and
+                  notifications issued under the Environment (Protection) Act
+                  1986.
+                </p>
+              </div>
+              <a class="cta-link" href="#" title="Read More">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="ImageTextCards">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Card 1 -->
+          <div class="col-lg-4 col-xl-4">
+            <div class="card">
+              <img
+                src="assets/images/settings/vision.jpg"
+                alt="Tree Plantation"
+              />
+              <div class="card-content">
+                <h3>Vision & Mission</h3>
+                <p>
+                  To help Odisha pursue its cherished aspiration of sustainable
+                  development with its inhabitants and their future generations
+                  assured to breathe clean air, drink safe water, and live in
+                  healthy environment.
+                </p>
+                <p>
+                  State Pollution Control Board, Odisha shall develop its
+                  capability to address environmental challenges emanating from
+                  the industrial and economic development of the state of
+                  Odisha. It will proactively design innovative predictive,
+                  preventive, and regulatory mechanisms for environmental
+                  management and will be responsive to all its stakeholders.
+                </p>
+                <a class="cta-link" href="#" title="Read More">Read More</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-lg-4 col-xl-4">
+            <div class="What-section">
+              <div class="What-header">
+                <div class="What-heading">
+                  <h2 class="Font20 Font600 Updates">
+                    <span class="fa fa-bullhorn"></span> What's New
+                  </h2>
+                  <a href="#" class="view-all" title="View All">Read More</a>
+                </div>
+              </div>
+              <div class="What-box">
+                <ul class="What-content">
+                  <li>
+                    <a href="#"
+                      >Success Story on Celebration of State Level World
+                      Environment Day – 2025 (05.06.2025)</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      >Representatives from Govt of Odisha are imparting a
+                      training on GEM portal procedures for field officials of
+                      SPCB, Odisha on 19.05.2025</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      >Notification of Board Members of State Pollution Control
+                      Board (Lt No. 9766 dtd. 29.04.2025)</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      >Utkarsh Odisha- Make in Odisha Conclave 2025: Sectoral
+                      Session on Circular Economy (29th January 2025 at Janata
+                      Maidan)</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      >Corrigendum on Siting Criteria of Poultry Farms Animal
+                      Husbandry & Veterinary Services</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      >All the occupier engaged in handling, generation,
+                      collection, storage, packaging, transportation, use,
+                      treatment, processing, recycling, recovery,
+                      pre¬processing, co-processing, utilization, offering for
+                      sale, transfer or disposal of hazardous and other waste as
+                      per the Hazardous and Other Wastes (Management and
+                      Transboundary Movement) Rules, 2016 and amendments made
+                      there under (herein referred to as HOWM Rules) (Lt No.
+                      20606 dtd. 12.12.2024)</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col-lg-4 col-xl-4">
+            <div class="What-section">
+              <div class="What-header">
+                <div class="What-heading">
+                  <h2 class="Font20 Font600 Updates">
+                    <span class="fa fa-bell"></span> Notices
+                  </h2>
+                  <a href="#" class="view-all" title="View All">Read More</a>
+                </div>
+              </div>
+              <div class="What-box">
+                <ul class="What-content">
+                  <li>
+                    <a href="#"
+                      >Advertisement for Postponed of E-tender. Tender notice
+                      no. is – 1259 & Dated 30.01.2024</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      >Public Notice to Dealers of Lead Acid Batteries,
+                      Producers (Manufactures, Sellers and Importers of New and
+                      Refurbished Batteries), Consumers (End User of Batteries),
+                      Public Management Authorities, Entities involved in
+                      Colletion, Segreation and treatment of Waste Batteries,
+                      Refurbishers and Used Batteries and Recyclers of Waste
+                      Batteries (Letter No. 141 dtd. 03.01.2023)</a
+                    >
+                  </li>
+                  <li><a href="#">Corrigendum on existing fuel policy</a></li>
+                  <li><a href="#">Consent Committee</a></li>
+                  <li><a href="#">Reconstitution of Technical Committee</a></li>
+                  <li>
+                    <a href="#">MEMORANDUM ON EMPANELMENT OF CONSULTANT</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fourth-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 Mt-50">
+            <div class="row">
+              <h4 class="main-title">e-Dispatch</h4>
+              <div class="col-md-12 col-sm-12 mb-3">
+                <a
+                  href="#"
+                  class="external-card d-flex align-items-center border rounded h-100 text-decoration-none"
+                >
+                  <div
+                    class="icon-box d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="assets/images/icon/letters-dispatched.png"
+                      alt="Fees/Charges/Forms"
+                    />
+                  </div>
+                  <div class="text-box px-3">
+                    <span class="text-dark fw-semibold"
+                      >Total Letters Dispatched</span
+                    >
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-md-12 col-sm-12 mb-3">
+                <a
+                  href="#"
+                  class="external-card d-flex align-items-center border rounded h-100 text-decoration-none"
+                >
+                  <div
+                    class="icon-box d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="assets/images/icon/quikspace.png"
+                      alt="Online Application System"
+                    />
+                  </div>
+                  <div class="text-box px-3">
+                    <span class="text-dark fw-semibold">QuikSpace</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 Mt-50">
+            <div class="row">
+              <h4 class="main-title">e-Space</h4>
+              <div class="col-md-12 col-sm-12 mb-3">
+                <a
+                  href="#"
+                  class="external-card d-flex align-items-center border rounded h-100 text-decoration-none"
+                >
+                  <div
+                    class="icon-box d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="assets/images/icon/letters-received.png"
+                      alt="Fees/Charges/Forms"
+                    />
+                  </div>
+                  <div class="text-box px-3">
+                    <span class="text-dark fw-semibold"
+                      >Total Letters Received</span
+                    >
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-md-12 col-sm-12 mb-3">
+                <a
+                  href="#"
+                  class="external-card d-flex align-items-center border rounded h-100 text-decoration-none"
+                >
+                  <div
+                    class="icon-box d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="assets/images/icon/espace-search.png"
+                      alt="Online Application System"
+                    />
+                  </div>
+                  <div class="text-box px-3">
+                    <span class="text-dark fw-semibold">eSpace Search</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <ul>
+              <li>
+                <a href="#" class="external">
+                  <img
+                    src="assets/images/icon/fees-charges-forms.png"
+                    alt="Fees/Charges/Forms"
+                  />
+                  <span>Fees/Charges/Forms </span></a
+                >
               </li>
               <li>
-                <a href="javascript:void(0);" title="Acts & Rules">Acts & Rules</a>
-                <ul class="dropdown-content">
-                  <li><a href="#">Water (PCP) Act, 1974</a></li>
-                  <li><a href="#">Air (PCP) Act, 1981</a></li>
-                  <li><a href="#">Cess Act</a></li>
-                  <li><a href="#">Environment Protection Act, 1986</a></li>
-                  <li><a href="#">Important Case Laws</a></li>
-                  <li><a href="#">Cess Act</a></li>
-                </ul>
+                <a href="#" class="external">
+                  <img
+                    src="assets/images/icon/online-application-system.png"
+                    alt="Online Application System"
+                  />
+                  <span
+                    >Online Application <br />
+                    System</span
+                  ></a
+                >
               </li>
               <li>
-                <a href="javascript:void(0);" title="Guideline & Circulars">Guideline & Circulars</a>
-                <ul class="dropdown-content">
-                  <li><a href="#">Guidelines</a></li>
-                  <li><a href="#">Circulars for Ease of Doing Business</a></li>
-                  <li><a href="#">Notification/ Notice</a></li>
-                  <li><a href="#">Employment Notice</a></li>
-                  <li><a href="#">Office Order</a></li>
-                  
-                </ul>
+                <a href="#" class="external">
+                  <img
+                    src="assets/images/icon/monitoring-data-system.png"
+                    alt="Monitoring Data Acquisition System"
+                  />
+                  <span
+                    >Monitoring Data <br />
+                    Acquisition System</span
+                  ></a
+                >
               </li>
               <li>
-                <a href="javascript:void(0);" title="Programs & Projects">Programs & Projects</a>
-                <ul class="dropdown-content">
-                  <li><a href="#">CEPI</a></li>
-                  <li><a href="#">NCAP</a></li>
-                  <li><a href="#">NWMP</a></li>
-                  <li><a href="#">NAMP</a></li>
-                  <li><a href="#">DEMP</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Publication & Reports</a></li>
-              <li>
-                <a href="javascript:void(0);" title="Tender">Tender</a>
-                <ul class="dropdown-content">
-                  <li><a href="#">Tender/Quotation/ Auction</a></li>
-                  <li><a href="#">Advertisement</a></li>
-                </ul>
+                <a href="#" class="external">
+                  <img
+                    src="assets/images/icon/public-hearing.png"
+                    alt="Public Hearing"
+                  />
+                  <span>Public Hearing</span></a
+                >
               </li>
               <li>
-                <a href="javascript:void(0);" title="Public Awareness">Public Awareness</a>
-                <ul class="dropdown-content">
-                  <li><a href="#">Calender of Events</a></li>
-                  <li><a href="#">Activities</a></li>
-                  <li><a href="#">Success Stories</a></li>
-                </ul>
+                <a href="#" class="external">
+                  <img
+                    src="assets/images/icon/rd-das.png"
+                    alt="Star Rating Program"
+                  />
+                  <span>RT-DAS</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="external">
+                  <img
+                    src="assets/images/icon/ease-doing-business.png"
+                    alt="image of icon Events"
+                  />
+                  <span>Ease of doing <br />Business</span></a
+                >
               </li>
             </ul>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</header>
-<section class="position-relative BannerHome">
-  <div class="swiper BannerHomeSwiper h-100">
-    <div class="swiper-wrapper h-100">
-      <div class="swiper-slide h-100">
-            <div class="container h-100">
-              <div class="row h-100 align-items-center">
-                <div class="col-lg-12 d-flex flex-wrap align-items-center BannerHomeCol">
-                  <div class="BannerContent">
-                    <div class="Heading">
-                      <div class="d-flex flex-wrap align-items-center">
-                        <p class="DateLocation">
-                          <span class="Date">Ek Ped Maa Ke Naam on the eve of WED- 2025</span>
-                        </p>
+    </section>
+
+    <section class="services-section">
+      <div class="services-container">
+        <div class="service-box">
+          <img
+            src="assets/images/icon/public-complaint.png"
+            alt="Icon"
+            class="service-icon"
+          />
+          <div class="service-text">Public Complaint</div>
+        </div>
+
+        <div class="service-box">
+          <img
+            src="assets/images/icon/consultant-desk.png"
+            alt="Icon"
+            class="service-icon"
+          />
+          <div class="service-text">Consultant Desk</div>
+        </div>
+
+        <div class="service-box">
+          <img
+            src="assets/images/icon/downloads.png"
+            alt="Icon"
+            class="service-icon"
+          />
+          <div class="service-text">Downloads</div>
+        </div>
+
+        <div class="service-box">
+          <img
+            src="assets/images/icon/dos.png"
+            alt="Icon"
+            class="service-icon"
+          />
+          <div class="service-text">Do's & Don'ts</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="five-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row">
+              <h4 class="main-title">Citizen Forum</h4>
+              <div class="col-md-4 col-sm-4 mb-3">
+                <a
+                  href="#"
+                  class="external1-card d-flex align-items-center border rounded text-decoration-none"
+                >
+                  <div
+                    class="icon-box1 d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="assets/images/icon/pdf.png"
+                      alt="Fees/Charges/Forms"
+                    />
+                  </div>
+                  <div class="text-box1 px-1">
+                    <span class="text-dark fw-semibold"
+                      >Procedure For Online Payment In Consent Management
+                    </span>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-md-4 col-sm-4 mb-3">
+                <a
+                  href="#"
+                  class="external1-card d-flex align-items-center border rounded text-decoration-none"
+                >
+                  <div
+                    class="icon-box1 d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="assets/images/icon/pdf.png"
+                      alt="Fees/Charges/Forms"
+                    />
+                  </div>
+                  <div class="text-box1 px-1">
+                    <span class="text-dark fw-semibold"
+                      >Procedure For Authorization Under Municipal Solid Wastes
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4 col-sm-4 mb-3">
+                <a
+                  href="#"
+                  class="external1-card d-flex align-items-center border rounded text-decoration-none"
+                >
+                  <div
+                    class="icon-box1 d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="assets/images/icon/pdf.png"
+                      alt="Fees/Charges/Forms"
+                    />
+                  </div>
+                  <div class="text-box1 px-1">
+                    <span class="text-dark fw-semibold"
+                      >Procedure For Authorization Under Hazardous
+                    </span>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-md-4 col-sm-4 mb-3">
+                <a
+                  href="#"
+                  class="external1-card d-flex align-items-center border rounded text-decoration-none"
+                >
+                  <div
+                    class="icon-box1 d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="assets/images/icon/pdf.png"
+                      alt="Fees/Charges/Forms"
+                    />
+                  </div>
+                  <div class="text-box1 px-1">
+                    <span class="text-dark fw-semibold"
+                      >User guide Consent to Operate OCMMS
+                    </span>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-md-4 col-sm-4 mb-3">
+                <a
+                  href="#"
+                  class="external1-card d-flex align-items-center border rounded text-decoration-none"
+                >
+                  <div
+                    class="icon-box1 d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="assets/images/icon/pdf.png"
+                      alt="Fees/Charges/Forms"
+                    />
+                  </div>
+                  <div class="text-box1 px-1">
+                    <span class="text-dark fw-semibold"
+                      >User guide Consent to Establish OCMMS
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4 col-sm-4 mb-3">
+                <a
+                  href="#"
+                  class="external1-card d-flex align-items-center border rounded text-decoration-none"
+                >
+                  <div
+                    class="icon-box1 d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="assets/images/icon/pdf.png"
+                      alt="Fees/Charges/Forms"
+                    />
+                  </div>
+                  <div class="text-box1 px-1">
+                    <span class="text-dark fw-semibold"
+                      >What we are not responsible for?
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ProgrammeHighlights bg-cover">
+      <div class="container">
+        <div
+          class="HeadingBox d-flex justify-content-between align-items-center flex-wrap"
+        >
+          <h3 class="Font40 mb-0 Color-291107 Heading">Public Awareness</h3>
+        </div>
+        <div class="swiper HighlightsSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="d-flex h-100">
+                <div class="ProgrammeBox">
+                  <div class="ProgrammeBoxWrap d-flex flex-wrap">
+                    <div class="w-100">
+                      <div class="img-padding Thumb">
+                        <img
+                          src="assets/images/settings/calender.jpg"
+                          alt="Calender of Events"
+                          title="Calender of Events"
+                        />
                       </div>
+                      <h3 class="mb-0 Title Font24 Font700">
+                        Calender of Events
+                      </h3>
                     </div>
-                    
+
+                    <a href="#" title="View More" class="cta-link">View More</a>
                   </div>
                 </div>
               </div>
             </div>
-            <img src="assets/images/banners/banner1.jpg" alt="Banner" class="img-center"/>
+            <div class="swiper-slide">
+              <div class="d-flex h-100">
+                <div class="ProgrammeBox">
+                  <div class="ProgrammeBoxWrap d-flex flex-wrap">
+                    <div class="w-100">
+                      <div class="img-padding Thumb">
+                        <img
+                          src="assets/images/settings/activities.jpg"
+                          alt="Activities"
+                          title="Activities"
+                        />
+                      </div>
+                      <h3 class="mb-0 Title Font24 Font700">Activities</h3>
+                    </div>
+
+                    <a href="#" title="View More" class="cta-link">View More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="d-flex h-100">
+                <div class="ProgrammeBox">
+                  <div class="ProgrammeBoxWrap d-flex flex-wrap">
+                    <div class="w-100">
+                      <div class="img-padding Thumb">
+                        <img
+                          src="assets/images/settings/success-stories.jpg"
+                          alt="Youth Pravasi Bharatiya Divas"
+                          title="Youth Pravasi Bharatiya Divas"
+                        />
+                      </div>
+                      <h3 class="mb-0 Title Font24 Font700">Success Stories</h3>
+                    </div>
+
+                    <a href="#" title="View More" class="cta-link">View More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="Arrows justify-content-center d-none w-100 mt-3">
+          <button
+            title="Previous"
+            class="ArrowPrev HighlightsSwiperPrev"
+          ></button>
+          <button title="Next" class="ArrowNext HighlightsSwiperNext"></button>
+        </div>
+      </div>
+    </section>
+    <!-- Hide Start -->
+
+    <!-- Hide End -->
+
+    <section class="Reasons">
+      <div class="container">
+        <div
+          class="HeadingBox d-flex justify-content-between align-items-center flex-wrap"
+        >
+          <h3 class="Font40 mb-0 Color-291107 Heading">Photo Gallery</h3>
+        </div>
+        <div class="row Nmt-30">
+          <div
+            class="col-sm-6 col-md-6 col-lg-3 col-xl-3 Mt-30 PBSA_AwardeesBox VideoGallery"
+          >
+            <div class="w-100 rounded-15 ShadowBox Inner position-relative">
+              <div class="img-padding rounded-15 Thumb">
+                <img
+                  src="assets/images/photos/banner1-1.jpg"
+                  alt="Used Pet Bottle free Rathayatra 2025"
+                  title="Used Pet Bottle free Rathayatra 2025"
+                  class="img-center"
+                  width="150px"
+                  height="150px"
+                />
+                <div class="Overlay FileIcon">
+                  <span class="fa-regular fa-images"></span>
+                </div>
+              </div>
+              <div class="BG-White position-relative rounded-15 Content w-100">
+                <p class="pb-0 Font15 Color-291107 Font700 Title">
+                  Used Pet Bottle free Rathayatra 2025
+                </p>
+              </div>
+              <a
+                title="Used Pet Bottle free Rathayatra 2025"
+                class="w-100 h-100 position-absolute left-0 top-0 z-1"
+                href="assets/images/photos/banner1-1.jpg"
+                data-fancybox="blogGallery"
+              >
+              </a>
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-3 col-xl-3 Mt-30 PBSA_AwardeesBox VideoGallery"
+          >
+            <div class="w-100 rounded-15 ShadowBox Inner position-relative">
+              <div class="img-padding rounded-15 Thumb">
+                <img
+                  src="assets/images/photos/banner2-2.jpg"
+                  alt="Used Pet Bottle free Rathayatra 2025"
+                  title="Used Pet Bottle free Rathayatra 2025"
+                  class="img-center"
+                  width="150px"
+                  height="150px"
+                />
+                <div class="Overlay FileIcon">
+                  <span class="fa-regular fa-images"></span>
+                </div>
+              </div>
+              <div class="BG-White position-relative rounded-15 Content w-100">
+                <p class="pb-0 Font15 Color-291107 Font700 Title">
+                  Used Pet Bottle free Rathayatra 2025
+                </p>
+              </div>
+              <a
+                title="Used Pet Bottle free Rathayatra 2025"
+                class="w-100 h-100 position-absolute left-0 top-0 z-1"
+                href="assets/images/photos/banner2-2.jpg"
+                data-fancybox="blogGallery"
+              >
+              </a>
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-3 col-xl-3 Mt-30 PBSA_AwardeesBox VideoGallery"
+          >
+            <div class="w-100 rounded-15 ShadowBox Inner position-relative">
+              <div class="img-padding rounded-15 Thumb">
+                <img
+                  src="assets/images/photos/banner3-3.jpg"
+                  alt="Used Pet Bottle free Rathayatra 2025"
+                  title="Used Pet Bottle free Rathayatra 2025"
+                  class="img-center"
+                  width="150px"
+                  height="150px"
+                />
+                <div class="Overlay FileIcon">
+                  <span class="fa-regular fa-images"></span>
+                </div>
+              </div>
+              <div class="BG-White position-relative rounded-15 Content w-100">
+                <p class="pb-0 Font15 Color-291107 Font700 Title">
+                  Used Pet Bottle free Rathayatra 2025
+                </p>
+              </div>
+              <a
+                title="WUsed Pet Bottle free Rathayatra 2025"
+                class="w-100 h-100 position-absolute left-0 top-0 z-1"
+                href="assets/images/photos/banner3-3.jpg"
+                data-fancybox="blogGallery"
+              >
+              </a>
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-3 col-xl-3 Mt-30 PBSA_AwardeesBox VideoGallery"
+          >
+            <div class="w-100 rounded-15 ShadowBox Inner position-relative">
+              <div class="img-padding rounded-15 Thumb">
+                <img
+                  src="assets/images/photos/banner4-4.jpg"
+                  alt="Used Pet Bottle free Rathayatra 2025"
+                  title="Used Pet Bottle free Rathayatra 2025"
+                  class="img-center"
+                  width="150px"
+                  height="150px"
+                />
+                <div class="Overlay FileIcon">
+                  <span class="fa-regular fa-images"></span>
+                </div>
+              </div>
+              <div class="BG-White position-relative rounded-15 Content w-100">
+                <p class="pb-0 Font15 Color-291107 Font700 Title">
+                  Used Pet Bottle free Rathayatra 2025
+                </p>
+              </div>
+              <a
+                title="Used Pet Bottle free Rathayatra 2025"
+                class="w-100 h-100 position-absolute left-0 top-0 z-1"
+                href="assets/images/photos/banner4-4.jpg"
+                data-fancybox="blogGallery"
+              >
+              </a>
+            </div>
           </div>
 
-          <div class="swiper-slide h-100">
-            <div class="container h-100">
-              <div class="row h-100 align-items-center">
-                <div class="col-lg-12 d-flex flex-wrap align-items-center BannerHomeCol">
-                  <div class="BannerContent">
-                    <div class="Heading">
-                      <div class="d-flex flex-wrap align-items-center">
-                        <p class="DateLocation">
-                          <span class="Date">World Environment Day 2025
-#END of Plastic Pollution</span>
-                        </p>
-                      </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-3 col-xl-3 Mt-30 PBSA_AwardeesBox VideoGallery"
+          >
+            <div class="w-100 rounded-15 ShadowBox Inner position-relative">
+              <div class="img-padding rounded-15 Thumb">
+                <img
+                  src="assets/images/photos/banner1.jpeg"
+                  alt="World Environment Day 2025"
+                  title="World Environment Day 2025"
+                  class="img-center"
+                  width="150px"
+                  height="150px"
+                />
+                <div class="Overlay FileIcon">
+                  <span class="fa-regular fa-images"></span>
+                </div>
+              </div>
+              <div class="BG-White position-relative rounded-15 Content w-100">
+                <p class="pb-0 Font15 Color-291107 Font700 Title">
+                  World Environment Day 2025
+                </p>
+              </div>
+              <a
+                title="World Environment Day 2025"
+                class="w-100 h-100 position-absolute left-0 top-0 z-1"
+                href="assets/images/photos/banner1.jpeg"
+                data-fancybox="blogGallery"
+              >
+              </a>
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-3 col-xl-3 Mt-30 PBSA_AwardeesBox VideoGallery"
+          >
+            <div class="w-100 rounded-15 ShadowBox Inner position-relative">
+              <div class="img-padding rounded-15 Thumb">
+                <img
+                  src="assets/images/photos/banner2.jpeg"
+                  alt="World Environment Day 2025"
+                  title="World Environment Day 2025"
+                  class="img-center"
+                  width="150px"
+                  height="150px"
+                />
+                <div class="Overlay FileIcon">
+                  <span class="fa-regular fa-images"></span>
+                </div>
+              </div>
+              <div class="BG-White position-relative rounded-15 Content w-100">
+                <p class="pb-0 Font15 Color-291107 Font700 Title">
+                  World Environment Day 2025
+                </p>
+              </div>
+              <a
+                title="World Environment Day 2025"
+                class="w-100 h-100 position-absolute left-0 top-0 z-1"
+                href="assets/images/photos/banner2.jpeg"
+                data-fancybox="blogGallery"
+              >
+              </a>
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-3 col-xl-3 Mt-30 PBSA_AwardeesBox VideoGallery"
+          >
+            <div class="w-100 rounded-15 ShadowBox Inner position-relative">
+              <div class="img-padding rounded-15 Thumb">
+                <img
+                  src="assets/images/photos/banner3.jpeg"
+                  alt="World Environment Day 2025"
+                  title="World Environment Day 2025"
+                  class="img-center"
+                  width="150px"
+                  height="150px"
+                />
+                <div class="Overlay FileIcon">
+                  <span class="fa-regular fa-images"></span>
+                </div>
+              </div>
+              <div class="BG-White position-relative rounded-15 Content w-100">
+                <p class="pb-0 Font15 Color-291107 Font700 Title">
+                  World Environment Day 2025
+                </p>
+              </div>
+              <a
+                title="World Environment Day 2025"
+                class="w-100 h-100 position-absolute left-0 top-0 z-1"
+                href="assets/images/photos/banner3.jpeg"
+                data-fancybox="blogGallery"
+              >
+              </a>
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-6 col-lg-3 col-xl-3 Mt-30 PBSA_AwardeesBox VideoGallery"
+          >
+            <div class="w-100 rounded-15 ShadowBox Inner position-relative">
+              <div class="img-padding rounded-15 Thumb">
+                <img
+                  src="assets/images/photos/banner4.jpeg"
+                  alt="World Environment Day 2025"
+                  title="World Environment Day 2025"
+                  class="img-center"
+                  width="150px"
+                  height="150px"
+                />
+                <div class="Overlay FileIcon">
+                  <span class="fa-regular fa-images"></span>
+                </div>
+              </div>
+              <div class="BG-White position-relative rounded-15 Content w-100">
+                <p class="pb-0 Font15 Color-291107 Font700 Title">
+                  World Environment Day 2025
+                </p>
+              </div>
+              <a
+                title="World Environment Day 2025"
+                class="w-100 h-100 position-absolute left-0 top-0 z-1"
+                href="assets/images/photos/banner4.jpeg"
+                data-fancybox="blogGallery"
+              >
+              </a>
+            </div>
+          </div>
+          <div style="text-align: right">
+            <a href="#" class="cta-link mt-3" title="View All">View More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="DepartmentLogo">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="departmain">
+              <div class="swiper DepartmentLogoSwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div
+                      class="d-flex justify-content-center h-100 align-items-center DepartmentLogoBox"
+                    >
+                      <a
+                        class="DepartmentLogoA"
+                        href="javascript:void(0);"
+                        onclick="window.open('#');"
+                        title="Government of India"
+                      >
+                        <img
+                          src="assets/images/goverment_links/indiagovt.jpg"
+                          alt="Government of India"
+                          title="Government of India"
+                        />
+                      </a>
                     </div>
-                    
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="d-flex justify-content-center h-100 align-items-center DepartmentLogoBox"
+                    >
+                      <a
+                        class="DepartmentLogoA"
+                        href="javascript:void(0);"
+                        onclick="window.open('#');"
+                        title=" Central Pollution Control Board"
+                      >
+                        <img
+                          src="assets/images/goverment_links/cbcb.jpg"
+                          alt=" Central Pollution Control Board"
+                          title=" Central Pollution Control Board"
+                        />
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div
+                      class="d-flex justify-content-center h-100 align-items-center DepartmentLogoBox"
+                    >
+                      <a
+                        class="DepartmentLogoA"
+                        href="javascript:void(0);"
+                        onclick="window.open('#');"
+                        title="Ministry of Environment, Forests & Climate Change (MoEFCC)"
+                      >
+                        <img
+                          src="assets/images/goverment_links/moef.jpg"
+                          alt="Ministry of Environment, Forests & Climate Change (MoEFCC)"
+                          title="Ministry of Environment, Forests & Climate Change (MoEFCC)"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="d-flex justify-content-center h-100 align-items-center DepartmentLogoBox"
+                    >
+                      <a
+                        class="DepartmentLogoA"
+                        href="javascript:void(0);"
+                        onclick="window.open('#');"
+                        title="otherSPCB"
+                      >
+                        <img
+                          src="assets/images/goverment_links/otherSPCB.jpg"
+                          alt="otherSPCB"
+                          title="otherSPCB"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="d-flex justify-content-center h-100 align-items-center DepartmentLogoBox"
+                    >
+                      <a
+                        class="DepartmentLogoA"
+                        href="javascript:void(0);"
+                        onclick="window.open('#');"
+                        title="Government of Odisha"
+                      >
+                        <img
+                          src="assets/images/goverment_links/orissagovt.jpg"
+                          alt="Government of Odisha"
+                          title="Government of Odisha"
+                        />
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div
+                      class="d-flex justify-content-center h-100 align-items-center DepartmentLogoBox"
+                    >
+                      <a
+                        class="DepartmentLogoA"
+                        href="javascript:void(0);"
+                        onclick="window.open('#');"
+                        title="Government of India"
+                      >
+                        <img
+                          src="assets/images/goverment_links/indiagovt.jpg"
+                          alt="Government of India"
+                          title="Government of India"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="d-flex justify-content-center h-100 align-items-center DepartmentLogoBox"
+                    >
+                      <a
+                        class="DepartmentLogoA"
+                        href="javascript:void(0);"
+                        onclick="window.open('#');"
+                        title=" Central Pollution Control Board"
+                      >
+                        <img
+                          src="assets/images/goverment_links/cbcb.jpg"
+                          alt=" Central Pollution Control Board"
+                          title=" Central Pollution Control Board"
+                        />
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div
+                      class="d-flex justify-content-center h-100 align-items-center DepartmentLogoBox"
+                    >
+                      <a
+                        class="DepartmentLogoA"
+                        href="javascript:void(0);"
+                        onclick="window.open('#');"
+                        title="Ministry of Environment, Forests & Climate Change (MoEFCC)"
+                      >
+                        <img
+                          src="assets/images/goverment_links/moef.jpg"
+                          alt="Ministry of Environment, Forests & Climate Change (MoEFCC)"
+                          title="Ministry of Environment, Forests & Climate Change (MoEFCC)"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="d-flex justify-content-center h-100 align-items-center DepartmentLogoBox"
+                    >
+                      <a
+                        class="DepartmentLogoA"
+                        href="javascript:void(0);"
+                        onclick="window.open('#');"
+                        title="otherSPCB"
+                      >
+                        <img
+                          src="assets/images/goverment_links/otherSPCB.jpg"
+                          alt="otherSPCB"
+                          title="otherSPCB"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="d-flex justify-content-center h-100 align-items-center DepartmentLogoBox"
+                    >
+                      <a
+                        class="DepartmentLogoA"
+                        href="javascript:void(0);"
+                        onclick="window.open('#');"
+                        title="Government of Odisha"
+                      >
+                        <img
+                          src="assets/images/goverment_links/orissagovt.jpg"
+                          alt="Government of Odisha"
+                          title="Government of Odisha"
+                        />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <img src="assets/images/banners/banner2.jpg" alt="Banner" class="img-center"/>
-          </div>
-          <div class="swiper-slide h-100">
-            <div class="container h-100">
-              <div class="row h-100 align-items-center">
-                <div class="col-lg-12 d-flex flex-wrap align-items-center BannerHomeCol">
-                  <div class="BannerContent">
-                    <div class="Heading">
-                      <div class="d-flex flex-wrap align-items-center">
-                        <p class="DateLocation">
-                          <span class="Date">Member Secretary Presented Board’s publication
-to the Hon’ble Governor of Odisha</span>
-                        </p>
-                      </div>
-                    </div>
-                    
-                  </div>
-                </div>
+              <div
+                class="Arrows justify-content-center d-flex align-items-center w-100 mt-3"
+              >
+                <button
+                  title="Previous"
+                  class="ArrowPrev DepartmentLogoSwiperPrev"
+                ></button>
+                <button
+                  title="Pause"
+                  class="DepartmentLogoPlayBtn PlayBtnSlider"
+                  data-swiper="DepartmentLogoSwiper"
+                ></button>
+                <button
+                  title="Next"
+                  class="ArrowNext DepartmentLogoSwiperNext"
+                ></button>
               </div>
             </div>
-            <img src="assets/images/banners/banner3.jpg" alt="Banner" class="img-center"/>
           </div>
-          <div class="swiper-slide h-100">
-            <div class="container h-100">
-              <div class="row h-100 align-items-center">
-                <div class="col-lg-12 d-flex flex-wrap align-items-center BannerHomeCol">
-                  <div class="BannerContent">
-                    <div class="Heading">
-                      <div class="d-flex flex-wrap align-items-center">
-                        <p class="DateLocation">
-                          <span class="Date">41st Foundation day of SPCB Odisha</span>
-                        </p>
-                      </div>
-                    </div>
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-            <img src="assets/images/banners/banner4.jpg" alt="Banner" class="img-center"/>
-          </div>
-           <div class="swiper-slide h-100">
-            <div class="container h-100">
-              <div class="row h-100 align-items-center">
-                <div class="col-lg-12 d-flex flex-wrap align-items-center BannerHomeCol">
-                  <div class="BannerContent">
-                    <div class="Heading">
-                      <div class="d-flex flex-wrap align-items-center">
-                        <p class="DateLocation">
-                          <span class="Date">Land Reclaiming at Legacy Waste</span>
-                        </p>
-                      </div>
-                    </div>
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-            <img src="assets/images/banners/banner5.jpg" alt="Banner" class="img-center"/>
-          </div>
-                  </div>
-  </div>
-  <div class="HomeBannerControls">
-        <div class="HomeBannerPagination"></div>
-  </div>
-</section>
-<section class="MarqueeBlock">
-  <div class="container">
-    <div class="ShadowBox1 position-relative">
-    <div class="row">
-      <div class="col-lg-12 col-xl-12 LeftParttop">
-        <div class="Marquee">
-          <div class="MarqueeWrap">
-            <h2 class="Font20 Font600 Updates">Air Quality Index:<a href="javascript:void(0)" title="MarqueeBtn" class="MarqueeBtn"><span class="displayNone" >MarqueeBtn</span> </a>
-            </h2>
-            <a href="#"
-              class="cta-link" title="View All">View All</a>
-            <div class="MarqueeBox">
-              <ul id="marqueess">
-                  <li>
-                    <p><strong>Date :</strong> 12.06.2025 | <strong>City :</strong> Bhubaneswar | Air Quality Index (AQI) Value: 53 Prominent Pollutants: PM10 | <strong>Status: </strong>Satisfactory=> Based on 03 No. of Monitoring Stations. State Pollution Control Board, Odisha Ranked No. 1 on Public Disclosure</p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer_area">
+      <div class="container fpb-500">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="connect-title">OTHER LINKS</div>
+            <div class="single-footer-widget">
+              <div class="footer_menu">
+                <ul class="textlist">
+                  <li class="">
+                    <a class="external" href="#"
+                      >Forest and Environment Govt. Of Orissa</a
+                    >
                   </li>
-                                </ul>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-   </div>
-  </div>
-  </div>
-</section>
-<section class="MarqueeBlock">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-5 col-xl-8 LeftPart">
-        <div class="marquee-section">
-  <div class="marquee-header">
-   <div class="marquee-heading">
-  <h2 class="Font20 Font600 Updates"> <span class="fa fa-newspaper"></span> News & Announcements</h2>
-  <a href="#" class="view-all" title="View All">View All</a>
-</div>
-  </div>
-  <div class="marquee-box">
-    <ul class="marquee-content">
-      <li><a href="#">Press Release on State Level World Environment Day-2025 & Prakruti Mitra Award Distribution</a></li>
-      <li><a href="#">Representatives from Govt of Odisha are imparting a training on GEM portal procedures for field officials of SPCB, Odisha on 19.05.2025</a></li>
-      <li><a href="#">Framework for Circular Economy Vision 2036</a></li>
-    </ul>
-  </div>
-</div>
-        
-      </div>
-      <div class="col-lg-7 col-xl-4 RightPart StatePollution">
-        <div class="SPCBCountdown">
-          
-          <div class="CountdownWrap">
-            <div class="col-lg-12 BottomPart">
-              <div class="row justify-content-center">
-                      <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                      <div class="Thumb1 m-auto d-block BG-A864E2 align-items-center">
-                        <img src="assets/images/ministers/shri-mohan-charan-majhi.png" alt="Shri Mohan Charan Majhi" title="Shri Mohan Charan Majhi"/>                  </div>
-                      <h3 class="Name Font14 Font700 text-center">Shri Mohan Charan Majhi</h3>
-                      <p class="Designation Font14 Font500 text-center">Hon'ble Chief Minister </p>
-                    </div>
-                     <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                      <div class="Thumb m-auto d-block BG-F97722 align-items-center">
-                        <img src="assets/images/ministers/ganesh-ram-singhkhuntia.png" alt="Shri Ganesh Ram Singhkhuntia" title="Shri Ganesh Ram Singhkhuntia"/>                  </div>
-                      <h3 class="Name Font14 Font700 text-center">Shri Ganesh Ram Singhkhuntia</h3>
-                      <p class="Designation Font14 Font500 text-center">Hon'ble Minister of Forest, Environment & Climate Change, Labour & Employees State Insurance</p>
-                    </div>
-                    <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                      <div class="Thumb m-auto d-block BG-55B7E2">
-                        <img src="assets/images/ministers/manoj-ahuja.png" alt="Shri Prem Kumar Jha" title="Shri Prem Kumar Jha"/>                  </div>
-                      <h3 class="Name Font14 Font700 text-center">Shri Manoj Ahuja, IAS </h3>
-                      <p class="Designation Font14 Font500 text-center">Chairman, SPCB, Odisha</p>
-                    </div>
-                    <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                      <div class="Thumb m-auto d-block BG-55B7E2">
-                        <img src="assets/images/ministers/uma-nanduri.png" alt="Shri Prem Kumar Jha" title="Shri Prem Kumar Jha"/>                  </div>
-                      <h3 class="Name Font14 Font700 text-center">Smt. Uma Nanduri , IFS</h3>
-                      <p class="Designation Font14 Font500 text-center">Member Secretary, SPCB, Odisha</p>
-                    </div>
-                    
-                  </div>
-            </div>
-          </div>
-        </div>
-      </div>
-     <div class="col-lg-12 fullwidth StatePollution">
-      <div class="news-ticker">
-  <div class="ticker-wrap">
-    <div class="ticker-content">
-      <span><img src="assets/images/new.gif" alt="" title="" style="margin-top: 5px;"> <a href="#">OSPC Board has Lunched SACP State Clean Air Programme in 12 Cities of Odisha.</a></span>
-      <span><img src="assets/images/new.gif" alt="" title="" style="margin-top: 5px;"> <a href="#">All industry are requested to upload KML file with Consent applications. 
-                                                                                                   All 17 category units are requested to submit environmental statement before 30<sup>th</sup> 
-                                                                                                   September in ocmms portal. The user manual is avaliable.</a></span>
-      <span><img src="assets/images/new.gif" alt="" title="" style="margin-top: 5px;"> <a href="#">All the Registered entities on Waste Tyre EPR Portal developed by CPCB, Delhi are hereby 
-                                                                                                  informed that timeline for Quarterly and Annually Return for the Financial year 2023-24 has 
-                                                                                                  been extended till 31st December 2024. </a></span>
-    </div>
-  </div>
-</div>
-
-     </div>
-   </div>
-  </div>
-</section>
-
-<section id="content" class="StatePollution">
-  <div class="container">
-    <div class="ShadowBox position-relative">
-      <div class="row">
-        <div class="col-lg-7 LeftPart">
-          <div class="Thumb">
-            <img src="assets/images/settings/wildlife-bulding.jpg" alt="18th Pravasi Bharatiya Divas" title="18th Pravasi Bharatiya Divas"/>          </div>
-        </div>
-        <div class="col-lg-5 RightPart">
-          <h3 class="Font36 Heading Color-291107">Constitution of SPCB</h3>
-          <div class="subtext Font16">
-            <p >The Odisha State Prevention and Control of Pollution Board was constituted in pursuance of sub-section (1) of section 4 of the Water (Prevention and Control of Pollution) (Amendment) Act, 1974, 
-              vide Notification No. 1481-VII-HI-11/83 (Vol. II)-S.T.E., dt. 15.7.1983 in the erstwhile Department of Science, Technology & Environment, Government of Odisha. 
-              The Board is also functioning as the State Board under section 5 of the Air (P&CP) Act, 1981.The entire state of Odisha has been declared as Air Pollution Control Area since 18-07-2002. The Board was re-designated as State Pollution Control Board, Odisha vide Govt. 
-              Notification No. Env.-E (F)/8/89/1882 F&E, dt.16.07.1999.
-            </p>
-          </div>
-          <a class="cta-link" href="#" title="Read More">Read More</a>
-        </div>
-      </div>
-      </div>
-  </div>
-
-</section>
-<section class="ImageTextCards">
-  <div class="container">
-    <div class="row">
-      <!-- Card 1 -->
-       <div class="col-lg-4 col-xl-4">
-      <div class="card">
-        <img src="assets/images/settings/vision.jpg" alt="Tree Plantation">
-        <div class="card-content">
-          <h3>Vision & Mission</h3>
-          <p>To help Odisha pursue its cherished aspiration of sustainable development with its inhabitants and their future generations assured to breathe clean air, drink safe water, and live in healthy environment.</p>
-          <p>State Pollution Control Board, Odisha shall develop its capability to address environmental challenges emanating from the industrial and economic development of the state of Odisha. 
-            It will proactively design innovative predictive, preventive, and regulatory mechanisms for environmental management and will be responsive to all its stakeholders.</p>
-             <a class="cta-link" href="#" title="Read More">Read More</a>
-        </div>
-      </div>
-      </div>
-      <!-- Card 2 -->
-       <div class="col-lg-4 col-xl-4">
-         <div class="What-section">
-  <div class="What-header">
-   <div class="What-heading">
-  <h2 class="Font20 Font600 Updates"><span class="fa fa-bullhorn"></span> What's New</h2>
-  <a href="#" class="view-all" title="View All">Read More</a>
-</div>
-  </div>
-  <div class="What-box">
-    <ul class="What-content">
-      <li><a href="#">Success Story on Celebration of State Level World Environment Day – 2025 (05.06.2025)</a></li>
-      <li><a href="#">Representatives from Govt of Odisha are imparting a training on GEM portal procedures for field officials of SPCB, Odisha on 19.05.2025</a></li>
-      <li><a href="#">Notification of Board Members of State Pollution Control Board (Lt No. 9766 dtd. 29.04.2025)</a></li>
-      <li><a href="#">Utkarsh Odisha- Make in Odisha Conclave 2025: Sectoral Session on Circular Economy (29th January 2025 at Janata Maidan)</a></li>
-      <li><a href="#">Corrigendum on Siting Criteria of Poultry Farms Animal Husbandry & Veterinary Services</a></li>
-      <li><a href="#">All the occupier engaged in handling, generation, collection, storage, packaging, transportation, use, treatment, processing, 
-        recycling, recovery, pre¬processing, co-processing, utilization, offering for sale, transfer or disposal of hazardous and other waste as per the Hazardous and Other Wastes 
-        (Management and Transboundary Movement) Rules, 2016 and amendments made there under (herein referred to as HOWM Rules) (Lt No. 20606 dtd. 12.12.2024)</a></li>
-    </ul>
-  </div>
-        </div>
-      </div>
-      <!-- Card 3 -->
-       <div class="col-lg-4 col-xl-4">
-         <div class="What-section">
-  <div class="What-header">
-   <div class="What-heading">
-  <h2 class="Font20 Font600 Updates"><span class="fa fa-bell"></span> Notices</h2>
-  <a href="#" class="view-all" title="View All">Read More</a>
-</div>
-  </div>
-  <div class="What-box">
-    <ul class="What-content">
-      <li><a href="#">Advertisement for Postponed of E-tender. Tender notice no. is – 1259 & Dated 30.01.2024</a></li>
-      <li><a href="#">Public Notice  to Dealers of Lead Acid Batteries, Producers (Manufactures, Sellers and Importers of New and Refurbished Batteries), 
-        Consumers (End User of Batteries), Public Management Authorities, Entities involved in Colletion, Segreation and treatment of Waste Batteries, 
-        Refurbishers and Used Batteries and Recyclers of Waste Batteries (Letter No. 141 dtd. 03.01.2023)</a></li>
-      <li><a href="#">Corrigendum on existing fuel policy</a></li>
-      <li><a href="#">Consent Committee</a></li>
-      <li><a href="#">Reconstitution of Technical Committee</a></li>
-      <li><a href="#">MEMORANDUM ON EMPANELMENT OF CONSULTANT</a></li>
-    </ul>
-  </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="fourth-section">
-<div class="container">
-<div class="row">
-<div class="col-md-6">
-  <div class="row">
-    <h4 class="main-title">e-Dispatch</h4>
-<div class="col-md-6 col-sm-6 mb-3">
-  <a href="#" class="external-card d-flex align-items-center border rounded h-100 text-decoration-none">
-    <div class="icon-box d-flex justify-content-center align-items-center">
-      <img src="assets/images/icon/letters-dispatched.png" alt="Fees/Charges/Forms" />
-    </div>
-    <div class="text-box px-3">
-      <span class="text-dark fw-semibold">Total Letters Dispatched</span>
-    </div>
-  </a>
-</div>
-
-<div class="col-md-6 col-sm-6 mb-3">
-  <a href="#" class="external-card d-flex align-items-center border rounded h-100 text-decoration-none">
-    <div class="icon-box d-flex justify-content-center align-items-center">
-      <img src="assets/images/icon/quikspace.png" alt="Online Application System" />
-    </div>
-    <div class="text-box px-3">
-      <span class="text-dark fw-semibold">QuikSpace</span>
-    </div>
-  </a>
-</div>
-
-  </div>
-
-  <div class="row">
-    <h4 class="main-title">e-Space</h4>
-<div class="col-md-6 col-sm-6 mb-3">
-  <a href="#" class="external-card d-flex align-items-center border rounded h-100 text-decoration-none">
-    <div class="icon-box d-flex justify-content-center align-items-center">
-      <img src="assets/images/icon/letters-received.png" alt="Fees/Charges/Forms" />
-    </div>
-    <div class="text-box px-3">
-      <span class="text-dark fw-semibold">Total Letters Received</span>
-    </div>
-  </a>
-</div>
-
-<div class="col-md-6 col-sm-6 mb-3">
-  <a href="#" class="external-card d-flex align-items-center border rounded h-100 text-decoration-none">
-    <div class="icon-box d-flex justify-content-center align-items-center">
-      <img src="assets/images/icon/espace-search.png" alt="Online Application System" />
-    </div>
-    <div class="text-box px-3">
-      <span class="text-dark fw-semibold">eSpace Search</span>
-    </div>
-  </a>
-</div>
-
-  </div>
-</div>
-
-<div class="col-md-6">
-<ul>
-<li><a href="#" class="external"> <img src="assets/images/icon/fees-charges-forms.png" alt="Fees/Charges/Forms"> <span>Fees/Charges/Forms </span></a></li>
-<li><a href="#" class="external"> <img src="assets/images/icon/online-application-system.png" alt="Online Application System"> <span>Online Application <br> System</span></a></li>
-<li><a href="#" class="external"> <img src="assets/images/icon/monitoring-data-system.png" alt="Monitoring Data Acquisition System"> <span>Monitoring Data <br> Acquisition System</span></a></li>
-<li><a href="#" class="external"> <img src="assets/images/icon/public-hearing.png" alt="Public Hearing"> <span>Public Hearing</span></a></li>
-<li><a href="#" class="external"> <img src="assets/images/icon/star-rating-program.png" alt="Star Rating Program"> <span>Star Rating <br> Program</span></a></li>
-<li><a href="#" class="external"> <img src="assets/images/icon/ease-doing-business.png" alt="image of icon Events"> <span>Ease of doing <br>Business</span></a></li>
-</ul>
-</div>
-</div>
-</div>
-</section>
-
-
-<section class="services-section">
-    <div class="services-container">
-      <div class="service-box">
-        <img src="assets/images/icon/public-complaint.png" alt="Icon" class="service-icon">
-        <div class="service-text">Public Complaint</div>
-      </div>
-
-      <div class="service-box">
-        <img src="assets/images/icon/consultant-desk.png" alt="Icon" class="service-icon">
-        <div class="service-text">Consultant Desk</div>
-      </div>
-
-      <div class="service-box">
-        <img src="assets/images/icon/downloads.png" alt="Icon" class="service-icon">
-        <div class="service-text">Downloads</div>
-      </div>
-
-      <div class="service-box">
-        <img src="assets/images/icon/dos.png" alt="Icon" class="service-icon">
-        <div class="service-text">Do's & Don'ts</div>
-      </div>
-    </div>
-</section>
-
-<section class="five-section">
-<div class="container">
-<div class="row">
-<div class="col-md-12">
-  <div class="row">
-    <h4 class="main-title">Citizen Forum</h4>
-<div class="col-md-4 col-sm-4 mb-3">
-  <a href="#" class="external1-card d-flex align-items-center border rounded text-decoration-none">
-    <div class="icon-box1 d-flex justify-content-center align-items-center">
-      <img src="assets/images/icon/pdf.png" alt="Fees/Charges/Forms" />
-    </div>
-    <div class="text-box1 px-1">
-      <span class="text-dark fw-semibold">Procedure For Online  Payment In Consent Management </span>
-    </div>
-  </a>
-</div>
-
-<div class="col-md-4 col-sm-4 mb-3">
-  <a href="#" class="external1-card d-flex align-items-center border rounded text-decoration-none">
-    <div class="icon-box1 d-flex justify-content-center align-items-center">
-      <img src="assets/images/icon/pdf.png" alt="Fees/Charges/Forms" />
-    </div>
-    <div class="text-box1 px-1">
-      <span class="text-dark fw-semibold">Procedure  For Authorization Under  Municipal Solid Wastes </span>
-    </div>
-  </a>
-</div>
-<div class="col-md-4 col-sm-4 mb-3">
-  <a href="#" class="external1-card d-flex align-items-center border rounded text-decoration-none">
-    <div class="icon-box1 d-flex justify-content-center align-items-center">
-      <img src="assets/images/icon/pdf.png" alt="Fees/Charges/Forms" />
-    </div>
-    <div class="text-box1 px-1">
-      <span class="text-dark fw-semibold">Procedure  For Authorization Under Hazardous </span>
-    </div>
-  </a>
-</div>
-
-<div class="col-md-4 col-sm-4 mb-3">
-  <a href="#" class="external1-card d-flex align-items-center border rounded text-decoration-none">
-    <div class="icon-box1 d-flex justify-content-center align-items-center">
-      <img src="assets/images/icon/pdf.png" alt="Fees/Charges/Forms" />
-    </div>
-    <div class="text-box1 px-1">
-      <span class="text-dark fw-semibold">User guide Consent to Operate OCMMS </span>
-    </div>
-  </a>
-</div>
-
-<div class="col-md-4 col-sm-4 mb-3">
-  <a href="#" class="external1-card d-flex align-items-center border rounded text-decoration-none">
-    <div class="icon-box1 d-flex justify-content-center align-items-center">
-      <img src="assets/images/icon/pdf.png" alt="Fees/Charges/Forms" />
-    </div>
-    <div class="text-box1 px-1">
-      <span class="text-dark fw-semibold">User guide Consent to Establish OCMMS  </span>
-    </div>
-  </a>
-</div>
-<div class="col-md-4 col-sm-4 mb-3">
-  <a href="#" class="external1-card d-flex align-items-center border rounded text-decoration-none">
-    <div class="icon-box1 d-flex justify-content-center align-items-center">
-      <img src="assets/images/icon/pdf.png" alt="Fees/Charges/Forms" />
-    </div>
-    <div class="text-box1 px-1">
-      <span class="text-dark fw-semibold">What we are not responsible for? </span>
-    </div>
-  </a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-
-
-
-<section class="ProgrammeHighlights bg-cover">
-  <div class="container">
-    <div class="HeadingBox d-flex justify-content-between align-items-center flex-wrap">
-      <h3 class="Font40 mb-0 Color-291107 Heading">Public Awareness</h3>
-    </div>
-    <div class="swiper HighlightsSwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="d-flex h-100">
-            <div class="ProgrammeBox">
-              <div class="ProgrammeBoxWrap d-flex flex-wrap">
-                <div class="w-100">
-                  <div class="img-padding Thumb">
-                    <img src="assets/images/settings/calender.jpg" alt="Calender of Events" title="Calender of Events"/>
-                   </div>
-                  <h3 class="mb-0 Title Font24 Font700">Calender of Events</h3>
-                </div>
-                
-                <a href="#" title="View More"
-                  class="cta-link">View More</a>
+                  <li class="">
+                    <a class="external" href="#">Appellate Authority</a>
+                  </li>
+                  <li class=""><a class="external" href="#">CICG</a></li>
+                  <li class="">
+                    <a class="external" href="#">EIA Notification 2020</a>
+                  </li>
+                  <li class="">
+                    <a class="external" href="#"
+                      >Spatial Database of CPA (Critically Polluted Area)</a
+                    >
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-        </div>
-       <div class="swiper-slide">
-          <div class="d-flex h-100">
-            <div class="ProgrammeBox">
-              <div class="ProgrammeBoxWrap d-flex flex-wrap">
-                <div class="w-100">
-                  <div class="img-padding Thumb">
-                    <img src="assets/images/settings/activities.jpg" alt="Activities" title="Activities"/>                  </div>
-                  <h3 class="mb-0 Title Font24 Font700">Activities</h3>
-                </div>
-                
-                <a href="#" title="View More"
-                  class="cta-link">View More</a>
+          <div class="col-md-4">
+            <div class="connect-title">Contact Us</div>
+            <div class="single-footer-widget">
+              <div class="footer_menu footer-address">
+                <ul>
+                  <li>
+                    <div>
+                      <img
+                        src="assets/images/icon/address.png"
+                        alt="Image of icon Office Address"
+                      />
+                    </div>
+                    <div>
+                      <span>Office Address</span
+                      ><strong>Pollution Control Board (Head Office)</strong>
+                      <br />
+                      Paribesh Bhawan, A/118, Nilakantha Nagar,Unit – VIII,
+                      Bhubaneswar – 751012, Odisha
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <img
+                        src="assets/images/icon/phone.png"
+                        alt="Image of icon Pphone no"
+                      />
+                    </div>
+                    <div><span>PHONE NO</span>(0674) 2561909 / 2562847</div>
+                  </li>
+                  <li>
+                    <div>
+                      <img
+                        src="assets/images/icon/email.png"
+                        alt="Image of icon Email ID"
+                      />
+                    </div>
+                    <div>
+                      <span>Email ID</span>paribesh1[at]ospcboard[dot]org
+                    </div>
+                  </li>
+                  <li>
+                    <div><img src="assets/images/icon/faxicon.png" /></div>
+                    <div><span>FAX</span>(0674) 2562822 / 2560955</div>
+                  </li>
+                  <li>
+                    <div>
+                      <img src="assets/images/icon/website-icon-8.png" />
+                    </div>
+                    <div><span>Website</span>www.ospcboard.odisha.gov.in</div>
+                  </li>
+                </ul>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="d-flex h-100">
-            <div class="ProgrammeBox">
-              <div class="ProgrammeBoxWrap d-flex flex-wrap">
-                <div class="w-100">
-                  <div class="img-padding Thumb">
-                    <img src="assets/images/settings/success-stories.jpg" alt="Youth Pravasi Bharatiya Divas" title="Youth Pravasi Bharatiya Divas"/>                  </div>
-                  <h3 class="mb-0 Title Font24 Font700">Success Stories</h3>
-                </div>
-                
-                <a href="#" title="View More"
-                  class="cta-link">View More</a>
+              <div class="text-center">
+                <a
+                  href="#"
+                  style="pointer-events: none"
+                  class="feedback-btn external"
+                  ><img src="assets/images/icon/visitor.png" /> Visitors:
+                  <img
+                    class="statcounter"
+                    src="https://c.statcounter.com/12982972/0/5ab6a8e9/0/"
+                    alt="image of icon Web Analytics"
+                    referrerpolicy="no-referrer-when-downgrade" /></a
+                ><br />
+                <p>Last Updated On - 25 June 2025 | 12:15 AM</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="Arrows justify-content-center d-none w-100 mt-3">
-      <button title="Previous" class="ArrowPrev HighlightsSwiperPrev"></button>
-      <button title="Next" class="ArrowNext HighlightsSwiperNext"></button>
-    </div>
-  </div>
-</section>
-<!-- Hide Start -->
+    </footer>
 
-
-<!-- Hide End -->
-
-<section class="Reasons">
-  <div class="container">
-     <div class="HeadingBox d-flex justify-content-between align-items-center flex-wrap">
-      <h3 class="Font40 mb-0 Color-291107 Heading">Photo Gallery</h3>
-    </div>
-    <div class="row Nmt-30">
-						<div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 Mt-30 PBSA_AwardeesBox VideoGallery">
-						<div class="w-100 rounded-15 ShadowBox Inner position-relative">
-							<div class="img-padding rounded-15 Thumb"> <img src="assets/images/photos/banner1.jpeg" alt="World Environment Day 2025" title="World Environment Day 2025" class="img-center" width="150px" height="150px"/>
-              <div class="Overlay FileIcon"><span class="fa-regular fa-images"></span></div>
-							</div>
-							<div class="BG-White position-relative rounded-15 Content w-100">
-								<p class="pb-0 Font16 Color-291107 Font700 Title">World Environment Day 2025</p>
-							</div>
-							 <a title="World Environment Day 2025" class="w-100 h-100 position-absolute left-0 top-0 z-1" href="assets/images/photos/banner1.jpeg" data-fancybox="blogGallery">
-							</a>
-						</div>
-					</div>
-          <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 Mt-30 PBSA_AwardeesBox VideoGallery">
-						<div class="w-100 rounded-15 ShadowBox Inner position-relative">
-							<div class="img-padding rounded-15 Thumb"> <img src="assets/images/photos/banner2.jpeg" alt="World Environment Day 2025" title="World Environment Day 2025" class="img-center" width="150px" height="150px"/>
-              <div class="Overlay FileIcon"><span class="fa-regular fa-images"></span></div>
-							</div>
-							<div class="BG-White position-relative rounded-15 Content w-100">
-								<p class="pb-0 Font16 Color-291107 Font700 Title">World Environment Day 2025</p>
-							</div>
-							 <a title="World Environment Day 2025" class="w-100 h-100 position-absolute left-0 top-0 z-1" href="assets/images/photos/banner2.jpeg" data-fancybox="blogGallery">
-							</a>
-						</div>
-					</div>
-          <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 Mt-30 PBSA_AwardeesBox VideoGallery">
-						<div class="w-100 rounded-15 ShadowBox Inner position-relative">
-							<div class="img-padding rounded-15 Thumb"> <img src="assets/images/photos/banner3.jpeg" alt="World Environment Day 2025" title="World Environment Day 2025" class="img-center" width="150px" height="150px"/>
-              <div class="Overlay FileIcon"><span class="fa-regular fa-images"></span></div>
-							</div>
-							<div class="BG-White position-relative rounded-15 Content w-100">
-								<p class="pb-0 Font16 Color-291107 Font700 Title">World Environment Day 2025</p>
-							</div>
-							 <a title="World Environment Day 2025" class="w-100 h-100 position-absolute left-0 top-0 z-1" href="assets/images/photos/banner3.jpeg" data-fancybox="blogGallery">
-							</a>
-						</div>
-					</div>
-          <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 Mt-30 PBSA_AwardeesBox VideoGallery">
-						<div class="w-100 rounded-15 ShadowBox Inner position-relative">
-							<div class="img-padding rounded-15 Thumb"> <img src="assets/images/photos/banner4.jpeg" alt="World Environment Day 2025" title="World Environment Day 2025" class="img-center" width="150px" height="150px"/>
-              <div class="Overlay FileIcon"><span class="fa-regular fa-images"></span></div>
-							</div>
-							<div class="BG-White position-relative rounded-15 Content w-100">
-								<p class="pb-0 Font16 Color-291107 Font700 Title">World Environment Day 2025</p>
-							</div>
-							 <a title="World Environment Day 2025" class="w-100 h-100 position-absolute left-0 top-0 z-1" href="assets/images/photos/banner4.jpeg" data-fancybox="blogGallery">
-							</a>
-						</div>
-					</div>
-<div style="text-align: right;"> <a href="#" class="cta-link mt-3" title="View All">View More</a></div>
-		</div>
-   
-  </div>
-</section>
-
-  <div class="DepartmentLogo">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="departmain">
-            <div class="swiper DepartmentLogoSwiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="d-flex justify-content-center h-100 align-items-center DepartmentLogoBox">
-						<a class="DepartmentLogoA" href="javascript:void(0);" onclick="window.open('#');"
-                        title="Government of India">
-                       <img src="assets/images/goverment_links/indiagovt.jpg" alt="Government of India" title="Government of India"/>                      </a>
-                    </div>
-                  </div>
-                                  <div class="swiper-slide">
-                    <div class="d-flex justify-content-center h-100 align-items-center DepartmentLogoBox">
-						<a class="DepartmentLogoA" href="javascript:void(0);" onclick="window.open('#');"
-                        title=" Central Pollution Control Board">
-                        <img src="assets/images/goverment_links/cbcb.jpg" alt=" Central Pollution Control Board" title=" Central Pollution Control Board"/>   </a>
-                    </div>
-                  </div>
-                                  
-                                  <div class="swiper-slide">
-                    <div class="d-flex justify-content-center h-100 align-items-center DepartmentLogoBox">
-						<a class="DepartmentLogoA" href="javascript:void(0);" onclick="window.open('#');"
-                        title="Ministry of Environment, Forests & Climate Change (MoEFCC)">
-                        <img src="assets/images/goverment_links/moef.jpg" alt="Ministry of Environment, Forests & Climate Change (MoEFCC)" title="Ministry of Environment, Forests & Climate Change (MoEFCC)"/>                      </a>
-                    </div>
-                  </div>
-                                  <div class="swiper-slide">
-                    <div class="d-flex justify-content-center h-100 align-items-center DepartmentLogoBox">
-						<a class="DepartmentLogoA" href="javascript:void(0);" onclick="window.open('#');"
-                        title="otherSPCB">
-                        <img src="assets/images/goverment_links/otherSPCB.jpg" alt="otherSPCB" title="otherSPCB"/>                      </a>
-                    </div>
-                  </div>
-                                  <div class="swiper-slide">
-                    <div class="d-flex justify-content-center h-100 align-items-center DepartmentLogoBox">
-						<a class="DepartmentLogoA" href="javascript:void(0);" onclick="window.open('#');"
-                        title="Government of Odisha">
-                        <img src="assets/images/goverment_links/orissagovt.jpg" alt="Government of Odisha" title="Government of Odisha"/>                      </a>
-                    </div>
-                  </div>
-
-                              </div>
+    <footer>
+      <div class="AccessibilityPopUP" id="AccessibilityControl">
+        <h4 class="mb-0 position-relative Heading">
+          Accessibility Control<a
+            title="Accessibility Control"
+            href="#"
+            class="AccessibilityClick"
+            ><span class="fa fa-times"></span
+          ></a>
+        </h4>
+        <ul class="d-flex flex-wrap">
+          <li
+            class="d-flex align-items-center flex-wrap justify-content-center text-center"
+          >
+            <div class="fontScalerGrp">
+              <input
+                type="button"
+                name="font_normal"
+                value="A-"
+                id="font_normal"
+                title="Small Font Size"
+                class="fontScaler normal font-normal"
+              />
+              <input
+                type="button"
+                name="font_large"
+                value="A"
+                id="font_large"
+                title="Normal Font Size"
+                class="fontScaler large font-large current"
+              />
+              <input
+                type="button"
+                name="font_larger"
+                value="A+"
+                id="font_larger"
+                title="Larger Font Size"
+                class="fontScaler larger font-larger"
+              />
+              <span>Text Resize</span>
             </div>
-            <div class="Arrows justify-content-center d-flex align-items-center w-100 mt-3">
-              <button title="Previous" class="ArrowPrev DepartmentLogoSwiperPrev"></button>
-              <button title="Pause" class="DepartmentLogoPlayBtn PlayBtnSlider"
-                data-swiper="DepartmentLogoSwiper"></button>
-              <button title="Next" class="ArrowNext DepartmentLogoSwiperNext"></button>
+          </li>
+          <li
+            class="d-flex align-items-center flex-wrap justify-content-center text-center"
+          >
+            <div class="fontScalerGrp">
+              <input
+                type="button"
+                name="normal"
+                value="Standard View"
+                id="normal"
+                title="Standard View"
+                class="contrastChanger normal current"
+              />
+              <input
+                type="button"
+                name="wob"
+                value="High Contrast View"
+                id="wob"
+                title="High Contrast View"
+                class="contrastChanger wob"
+              />
+              <span>Contrast View</span>
             </div>
-          </div>
-        </div>
+          </li>
+          <li
+            class="d-flex align-items-center flex-wrap justify-content-center text-center"
+          >
+            <div class="fontScalerGrp">
+              <span
+                ><a
+                  href="#content"
+                  title="Skip to Main Content"
+                  class="skip-link"
+                  >Skip to Main Content</a
+                ></span
+              >
+            </div>
+          </li>
+          <li
+            class="d-flex align-items-center flex-wrap justify-content-center text-center"
+          >
+            <div class="fontScalerGrp">
+              <span
+                ><a class="readerAccess" title="Screen Reader Access" href="#"
+                  >Screen Reader Access</a
+                ></span
+              >
+            </div>
+          </li>
+        </ul>
       </div>
-    </div>
-  </div>
-
-
-<footer class="footer_area">
-<div class="container fpb-500">
-<div class="row">
-<div class="col-md-8">
-<div class="connect-title">OTHER LINKS</div>
-<div class="single-footer-widget">
-<div class="footer_menu">
- <ul class="textlist">
-  <li class=""><a class="external" href="#">Forest and Environment Govt. Of Orissa</a></li>
-  <li class=""><a class="external" href="#">Appellate Authority</a></li>
-  <li class=""><a class="external" href="#">CICG</a></li>
-  <li class=""><a class="external" href="#">EIA Notification 2020</a></li>
-  <li class=""><a class="external" href="#">Spatial Database of CPA (Critically Polluted Area)</a></li>
-  </ul>
-</div>
-</div>
-</div>
-<div class="col-md-4">
-<div class="connect-title">Contact Us</div>
-<div class="single-footer-widget">
-<div class="footer_menu footer-address">
-<ul>
-<li>
-<div><img src="assets/images/icon/address.png" alt="Image of icon Office Address"></div>
-<div><span>Office Address</span><strong>Pollution Control Board (Head Office)</strong> <br> 
-Paribesh Bhawan, A/118, Nilakantha Nagar,Unit – VIII, Bhubaneswar – 751012, Odisha</div>
-</li>
-<li>
-<div><img src="assets/images/icon/phone.png" alt="Image of icon Pphone no"></div>
-<div><span>PHONE NO</span>(0674) 2561909 / 2562847</div>
-</li>
-<li>
-<div><img src="assets/images/icon/email.png" alt="Image of icon Email ID"></div>
-<div><span>Email ID</span>paribesh1[at]ospcboard[dot]org</div>
-</li>
-<li>
-<div><img src="assets/images/icon/faxicon.png"></div>
-<div><span>FAX</span>(0674) 2562822 / 2560955</div>
-</li>
-<li>
-<div><img src="assets/images/icon/website-icon-8.png"></div>
-<div><span>Website</span>www.ospcboard.odisha.gov.in</div>
-</li>
-</ul>
-</div>
-<div class="text-center">
-  <a href="#" style="pointer-events: none;" class="feedback-btn external"><img src="assets/images/icon/visitor.png"> Visitors: <img class="statcounter" src="https://c.statcounter.com/12982972/0/5ab6a8e9/0/" alt="image of icon Web Analytics" referrerpolicy="no-referrer-when-downgrade"></a><br>
-<p>Last Updated On - 25 June 2025 | 12:15 AM</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</footer>
-
-            <footer>
-  <div class="AccessibilityPopUP" id="AccessibilityControl">
-    <h4 class="mb-0 position-relative Heading">Accessibility Control<a title="Accessibility Control" href="#" class="AccessibilityClick"><span class="fa fa-times"></span></a></h4>
-    <ul class="d-flex flex-wrap">
-      <li class="d-flex align-items-center flex-wrap justify-content-center text-center">
-        <div class="fontScalerGrp">
-          <input type="button" name="font_normal" value="A-" id="font_normal" title="Small Font Size" class="fontScaler normal font-normal">
-          <input type="button" name="font_large" value="A" id="font_large" title="Normal Font Size" class="fontScaler large font-large current">
-          <input type="button" name="font_larger" value="A+" id="font_larger" title="Larger Font Size" class="fontScaler larger font-larger">
-          <span>Text Resize</span>
-        </div>
-      </li>
-      <li class="d-flex align-items-center flex-wrap justify-content-center text-center">
-        <div class="fontScalerGrp">
-          <input type="button" name="normal" value="Standard View" id="normal" title="Standard View" class="contrastChanger normal current" />
-          <input type="button" name="wob" value="High Contrast View" id="wob" title="High Contrast View" class="contrastChanger wob" />
-          <span>Contrast View</span>
-        </div>
-      </li>
-      <li class="d-flex align-items-center flex-wrap justify-content-center text-center">
-        <div class="fontScalerGrp">
-          <span><a href="#content" title="Skip to Main Content" class="skip-link">Skip to Main Content</a></span>
-        </div>
-      </li>
-      <li class="d-flex align-items-center flex-wrap justify-content-center text-center">
-        <div class="fontScalerGrp">
-          <span><a class="readerAccess" title="Screen Reader Access" href="#">Screen Reader Access</a></span>
-        </div>
-      </li>
-    </ul>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 col-lg-3">
-        <div class="SocialIcons">
-          <ul>
-            <li>
-              <a href="#" target="_blank" title="Facebook Link">
-                <img src="assets/images/icons8-facebook-24.png" alt="View On Facebook" title="View On Facebook" class="custom-svg-icon text-white">          </a>
-            </li>
-            <li>
-              <a href="#" target="_blank" title="Twitter Link">
-                <img src="assets/images/x-social-media-logo-icon.png" alt="View On Twitter" title="View On Twitter" class="custom-svg-icon ">             </a>
-            </li>
-            <li>
-              <a href="#" target="_blank" title="Youtube Link">
-                <img src="assets/images/icons8-youtube-24.png" alt="View On YouTube" title="View On YouTube" class="custom-svg-icon"></a>
-            </li>
-            <li>
-              <a href="#" target="_blank" title="Instagram Link">
-                <img src="assets/images/icons8-instagram-24.png" alt="View On Instagram" title="View On Instagram" class="custom-svg-icon"> </a>
-            </li>
-            <!--<li>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-lg-3">
+            <div class="SocialIcons">
+              <ul>
+                <li>
+                  <a href="#" target="_blank" title="Facebook Link">
+                    <img
+                      src="assets/images/icons8-facebook-24.png"
+                      alt="View On Facebook"
+                      title="View On Facebook"
+                      class="custom-svg-icon text-white"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" title="Twitter Link">
+                    <img
+                      src="assets/images/x-social-media-logo-icon.png"
+                      alt="View On Twitter"
+                      title="View On Twitter"
+                      class="custom-svg-icon"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" title="Youtube Link">
+                    <img
+                      src="assets/images/icons8-youtube-24.png"
+                      alt="View On YouTube"
+                      title="View On YouTube"
+                      class="custom-svg-icon"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" title="Instagram Link">
+                    <img
+                      src="assets/images/icons8-instagram-24.png"
+                      alt="View On Instagram"
+                      title="View On Instagram"
+                      class="custom-svg-icon"
+                    />
+                  </a>
+                </li>
+                <!--<li>
               <a href="javascript:void(0)">
                               </a>
             </li>-->
-          </ul>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-8 col-lg-9">
+            <div class="FooterLink">
+              <ul>
+                <li>
+                  <a href="#" title="Terms & Conditions">Terms & Conditions </a>
+                </li>
+                <li>
+                  <a href="#" title="Privacy Policy">Privacy Policy </a>
+                </li>
+                <li>
+                  <a href="#" title="Copyright Policy">Copyright Policy </a>
+                </li>
+                <li>
+                  <a href="#" title="Hyperlinking Policy"
+                    >Hyperlinking Policy
+                  </a>
+                </li>
+                <li>
+                  <a href="#" title="Disclaimer">Disclaimer </a>
+                </li>
+                <li>
+                  <a href="#" title="Sitemap">Sitemap </a>
+                </li>
+                <li>
+                  <a href="#" title="FAQs">FAQs </a>
+                </li>
+                <li>
+                  <a href="#" title="RTI">RTI </a>
+                </li>
+                <li>
+                  <a href="#" title="Contact Us">Contact Us </a>
+                </li>
+              </ul>
+            </div>
+            <div class="Copyright">
+              <p>
+                Copyright © 2025 Odisha State Prevention and Control of
+                Pollution Board (SPCB). All Rights Reserved.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-md-8 col-lg-9">
-        <div class="FooterLink">
-          <ul>
-            <li>
-              <a href="#" title="Terms & Conditions">Terms & Conditions
-              </a>
-            </li>
-            <li>
-              <a href="#" title="Privacy Policy">Privacy Policy
-              </a>
-            </li>
-            <li>
-              <a href="#" title="Copyright Policy">Copyright Policy
-              </a>
-            </li>
-            <li>
-              <a href="#" title="Hyperlinking Policy">Hyperlinking Policy
-              </a>
-            </li>
-            <li>
-              <a href="#" title="Disclaimer">Disclaimer 
-              </a>
-            </li>
-            <li>
-              <a href="#" title="Sitemap">Sitemap
-              </a>
-            </li>
-            <li>
-              <a href="#" title="FAQs">FAQs
-              </a>
-            </li>
-             <li>
-              <a href="#" title="RTI">RTI
-              </a>
-            </li>
-            <li>
-              <a href="#" title="Contact Us">Contact Us
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="Copyright">
-          <p>Copyright © 2025  Odisha State Prevention and Control of Pollution Board (SPCB). All Rights
-            Reserved.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-<script>
-  $('#search-submit').on("click", function() {
-    var serchval = $("input[name=search_value]").val();
-    if (/^[a-zA-Z0-9- ]*$/.test(serchval) == false) {
-      return false;
-    } else if (serchval == '') {
-      return false;
-    } else {
-      $('#search_data').submit();
-    }
-  });
-</script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FW0896LFHV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    </footer>
+    <script>
+      $("#search-submit").on("click", function () {
+        var serchval = $("input[name=search_value]").val();
+        if (/^[a-zA-Z0-9- ]*$/.test(serchval) == false) {
+          return false;
+        } else if (serchval == "") {
+          return false;
+        } else {
+          $("#search_data").submit();
+        }
+      });
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-FW0896LFHV"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-FW0896LFHV');
-</script>        
-	<script src="assets/js/functions.min.js"></script>
-	<script src="assets/js/general.js"></script>
- <script>
-  // Show button after scrolling 300px
-  window.onscroll = function () {
-    const btn = document.querySelector('.back-to-top');
-    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-      btn.style.display = "block";
-    } else {
-      btn.style.display = "none";
-    }
-  };
+      gtag("config", "G-FW0896LFHV");
+    </script>
+    <script src="assets/js/functions.min.js"></script>
+    <script src="assets/js/general.js"></script>
+    <script>
+      // Show button after scrolling 300px
+      window.onscroll = function () {
+        const btn = document.querySelector(".back-to-top");
+        if (
+          document.body.scrollTop > 300 ||
+          document.documentElement.scrollTop > 300
+        ) {
+          btn.style.display = "block";
+        } else {
+          btn.style.display = "none";
+        }
+      };
 
-  // Smooth scroll to top
-  document.querySelector('.back-to-top').addEventListener('click', function (e) {
-    e.preventDefault();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  });
-</script>
+      // Smooth scroll to top
+      document
+        .querySelector(".back-to-top")
+        .addEventListener("click", function (e) {
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
 
- <script>
-// Disable right-click
-document.addEventListener('contextmenu', function(e) {
-  e.preventDefault();
-}, false);
+    <script>
+      window.addEventListener("load", function () {
+        // Fade out loader
+        document.getElementById("loader").style.display = "none";
 
-// Disable specific key shortcuts
-document.addEventListener('keydown', function(e) {
-  // F12
-  if (e.keyCode === 123) {
-    e.preventDefault();
-  }
-  // Ctrl+Shift+I
-  if (e.ctrlKey && e.shiftKey && e.keyCode === 73) {
-    e.preventDefault();
-  }
-  // Ctrl+U
-  if (e.ctrlKey && e.keyCode === 85) {
-    e.preventDefault();
-  }
-  // Ctrl+Shift+J (DevTools)
-  if (e.ctrlKey && e.shiftKey && e.keyCode === 74) {
-    e.preventDefault();
-  }
-  // Ctrl+S (Save page)
-  if (e.ctrlKey && e.keyCode === 83) {
-    e.preventDefault();
-  }
-}, false);
-</script> 
-</body>
+        // Show main website
+        document.getElementById("main-content").style.display = "block";
+      });
+    </script>
+  </body>
 </html>
